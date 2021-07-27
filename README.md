@@ -1,2 +1,2 @@
 # CorporateSite
-RelyonTrip Corporate Site
+RelyonTrip のコーポレートサイトです。
