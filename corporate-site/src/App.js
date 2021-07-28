@@ -2,6 +2,7 @@ import React from 'react'
 import { Root, Routes, addPrefetchExcludes } from 'react-static'
 //
 import { Link, Router } from 'components/Router'
+import Header from 'components/organisms/Header'
 import Dynamic from 'containers/Dynamic'
 
 import './app.css'
@@ -12,6 +13,7 @@ addPrefetchExcludes(['dynamic'])
 function App() {
   return (
     <Root>
+      <Header />
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
