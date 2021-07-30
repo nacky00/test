@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Theme from '../../../theme'
 
 const Wrapper = styled.div`
-    background-color: ${Theme.colors.black};
+    background-color: ${Theme.color.black};
     padding: 1.6rem;
 `;
 
@@ -16,8 +16,8 @@ const Container = styled.div`
 `
 
 const Title = styled.h1`
-    font-size: 1.2rem;
-    color: ${Theme.colors.white};
+    font-size: ${Theme.font.large};
+    color: ${Theme.color.white};
     margin-bottom: 2rem;
 `
 
@@ -34,7 +34,7 @@ const Block = styled.div`
 const Element = styled.div`
     margin-bottom: 1rem;
     a {
-        color: ${Theme.colors.white};
+        color: ${Theme.color.white};
         font-size: 1rem;
         font-weight: 400;
     }
@@ -50,7 +50,7 @@ const Bottom = styled.div`
     a {
         font-size: 0.8rem;
         font-weight: 400;
-        color: ${Theme.colors.white};
+        color: ${Theme.color.white};
         margin-left: 2rem;
     }
 `
