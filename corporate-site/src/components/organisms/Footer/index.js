@@ -35,8 +35,8 @@ const Element = styled.div`
     margin-bottom: 1rem;
     a {
         color: ${Theme.color.white};
-        font-size: 1rem;
-        font-weight: 400;
+        font-size: ${Theme.font.medium};
+        font-weight: ${Theme.weight.normal};
     }
 `
 
@@ -44,12 +44,12 @@ const Bottom = styled.div`
     display: flex;
     justify-content: space-between;
     p {
-        font-size: 0.8rem;
-        color: white;
+        font-size: ${Theme.font.small};
+        color: ${Theme.color.white};
     }
     a {
-        font-size: 0.8rem;
-        font-weight: 400;
+        font-size: ${Theme.font.small};
+        font-weight: ${Theme.weight.normal};
         color: ${Theme.color.white};
         margin-left: 2rem;
     }
