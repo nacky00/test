@@ -7,7 +7,8 @@ export const NewsData = () => {
             {newsData.map((body,key) => {
                 return(
                     <div key={key}>
-                        { body.title }
+                        <p>{body.date}</p>
+                        <p><a href={body.url} target="_blank">{body.title}</a></p>
                     </div>
                 )
             })}
