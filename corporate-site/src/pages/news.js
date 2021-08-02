@@ -1,5 +1,6 @@
 import React from 'react'
 import { useRouteData } from 'react-static'
+import { NewsData } from "../containers/NewsData";
 //
 import { Link } from 'components/Router'
 
@@ -15,6 +16,7 @@ export default function News() {
         </div>
         <br />
         All Posts:
+        <NewsData />
         {/* <ul>
         {posts.map(post => (
             <li key={post.id}>
