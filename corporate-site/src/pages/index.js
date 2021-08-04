@@ -49,7 +49,17 @@ export default () => (
     <div className="contents" style={{ backgroundColor: "beige", marginTop: "32%" }}>
         <section>
           <div style={{ backgroundColor: "pink" }}>
-            test
+            <h1>Product</h1>
+            <div>
+              <div>
+                <img />
+                イメージ
+              </div>
+              <div>
+                <button>AppStore</button>
+                <button>GooglePlay</button>
+              </div>
+            </div>
           </div>
         </section>
         <section>
