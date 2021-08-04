@@ -11,27 +11,39 @@ const MainVisual = styled.div`
 `;
 
 const MainTitle = styled.div`
-  position: "absolute;
+  position: absolute;
   top: 50%;
   left: 0;
   padding-left: 32px
   z-index: 2;
   h1 {
     font-size: ${Theme.font.xlarge};
-    color: ${Theme.color.white};
+    color: ${Theme.color.black};
   }
+  p {
+    font-size: ${Theme.font.large};
+  }
+`;
+
+const MainMovie = styled.video`
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  display: block;
+  width: 100%;
 `;
 
 export default () => (
   <div>
     <MainVisual>
-      <div style={{ position: "absolute", top: "50%", left: 0, paddingLeft: "32px", zIndex: 2 }}>
-        <h1 style={{ fontSize: "56px" }}>Something Message</h1>
+      <MainTitle>
+        <h1>Something Message</h1>
         <p>message message message</p>
-      </div>
-      <video autoPlay="true" loop="true" muted="true" playsInline width="100%" height="auto" style={{ position: "absolute", top: 0, left: 0, zIndex: 1, display: "block" }}>
+      </MainTitle>
+      <MainMovie autoPlay="true" loop="true" muted="true" playsInline>
         <source src="/sample_movie.mp4" type="video/mp4"/>
-      </video>
+      </MainMovie>
     </MainVisual>
     
     <div className="contents" style={{ backgroundColor: "beige", marginTop: "32%" }}>
