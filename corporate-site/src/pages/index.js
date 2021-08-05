@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Theme from 'theme'
 import { AppleButton } from 'components/atoms/AppleButton'
+import { GooglePlayButton } from 'components/atoms/GooglePlayButton'
 
 export default () => (
   <div>
@@ -26,9 +27,7 @@ export default () => (
               </div>
               <div>
                 <AppleButton/>
-                <StoreButton width="136px" href="https://apps.apple.com/us/app/caviia/id1546375547" target="_blank">
-                  <img src="/img/google-play-badge.png" alt="google play storeからダウンロード" />
-                </StoreButton>
+                <GooglePlayButton/>
               </div>
             </div>
           </div>
@@ -74,11 +73,3 @@ const MainMovie = styled.video`
   display: block;
   width: 100%;
 `;
-
-const StoreButton = styled.a.attrs(props => ({
-  width: props.width || "124px",
-}))`
-  display: block;
-  width: ${props => props.width};
-  height: auto;
-`
