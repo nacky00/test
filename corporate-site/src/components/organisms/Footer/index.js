@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'components/Router'
 
 import styled from 'styled-components'
-import Theme from '../../../theme'
+import Theme from 'theme'
 
 const Wrapper = styled.div`
     background-color: ${Theme.color.black};

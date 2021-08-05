@@ -1,6 +1,45 @@
 import React from 'react'
 import styled from 'styled-components'
-import Theme from '../theme'
+import Theme from 'theme'
+import { AppleButton } from 'components/atoms/AppleButton'
+import { GooglePlayButton } from 'components/atoms/GooglePlayButton'
+
+export default () => (
+  <div>
+    <MainVisual>
+      <MainTitle>
+        <h1>Something Message</h1>
+        <p>message message message</p>
+      </MainTitle>
+      <MainMovie autoPlay="true" loop="true" muted="true" playsInline>
+        <source src="/sample_movie.mp4" type="video/mp4"/>
+      </MainMovie>
+    </MainVisual>
+    
+    <div className="contents" style={{ backgroundColor: "beige", marginTop: "32%" }}>
+        <ProductSection>
+          <Wrapper>
+            <h1>Product</h1>
+              <ProductItem style={{ marginBottom: "2rem" }}>
+                <img src="/img/thumbnail-caviia.png" />
+                <StoreButtonsContainer>
+                  <AppleButton/>
+                  <GooglePlayButton/>
+                </StoreButtonsContainer>
+              </ProductItem>
+              <ProductItem>
+                <img src="/img/thumbnail-sassy.png" />
+                <StoreButtonsContainer>
+                  <AppleButton/>
+                  <GooglePlayButton/>
+                </StoreButtonsContainer>
+              </ProductItem>
+          </Wrapper>
+        </ProductSection>
+      </div>
+  </div>
+)
+
 
 const MainVisual = styled.div`
     position: fixed;
@@ -34,39 +73,30 @@ const MainMovie = styled.video`
   width: 100%;
 `;
 
-export default () => (
-  <div>
-    <MainVisual>
-      <MainTitle>
-        <h1>Something Message</h1>
-        <p>message message message</p>
-      </MainTitle>
-      <MainMovie autoPlay="true" loop="true" muted="true" playsInline>
-        <source src="/sample_movie.mp4" type="video/mp4"/>
-      </MainMovie>
-    </MainVisual>
-    
-    <div className="contents" style={{ backgroundColor: "beige", marginTop: "32%" }}>
-        <section>
-          <div style={{ backgroundColor: "pink" }}>
-            <h1>Product</h1>
-            <div>
-              <div>
-                <img />
-                イメージ
-              </div>
-              <div>
-                <button>AppStore</button>
-                <button>GooglePlay</button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div>
-            test
-          </div>
-        </section>
-      </div>
-  </div>
-)
+const StoreButtonsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
+const ProductItem = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  img {
+    margin-bottom: 1rem;
+  }
+`
+
+const ProductSection = styled.section`
+  background-color: ${Theme.color.white};
+`
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 3rem 0;
+`
