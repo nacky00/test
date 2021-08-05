@@ -11,8 +11,10 @@ export const AppleButton = props => {
 
 const StoreButton = styled.a.attrs(props => ({
     width: props.width || "124px",
+    marginRight: props.marginRight || "1rem"
 }))`
     display: block;
     width: ${props => props.width};
     height: auto;
+    margin-right: ${props => props.marginRight};
 `

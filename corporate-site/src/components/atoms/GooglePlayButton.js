@@ -10,7 +10,7 @@ export const GooglePlayButton = props => {
 }
 
 const StoreButton = styled.a.attrs(props => ({
-    width: props.width || "136px",
+    width: props.width || "153px",
 }))`
     display: block;
     width: ${props => props.width};

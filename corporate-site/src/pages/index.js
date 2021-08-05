@@ -17,21 +17,25 @@ export default () => (
     </MainVisual>
     
     <div className="contents" style={{ backgroundColor: "beige", marginTop: "32%" }}>
-        <section>
-          <div style={{ backgroundColor: "pink" }}>
+        <ProductSection>
+          <Wrapper>
             <h1>Product</h1>
-            <div>
-              <div>
-                <img />
-                イメージ
-              </div>
-              <div>
-                <AppleButton/>
-                <GooglePlayButton/>
-              </div>
-            </div>
-          </div>
-        </section>
+              <ProductItem style={{ marginBottom: "2rem" }}>
+                <img src="/img/thumbnail-caviia.png" />
+                <StoreButtonsContainer>
+                  <AppleButton/>
+                  <GooglePlayButton/>
+                </StoreButtonsContainer>
+              </ProductItem>
+              <ProductItem>
+                <img src="/img/thumbnail-sassy.png" />
+                <StoreButtonsContainer>
+                  <AppleButton/>
+                  <GooglePlayButton/>
+                </StoreButtonsContainer>
+              </ProductItem>
+          </Wrapper>
+        </ProductSection>
         <section>
           <div>
             test
@@ -73,3 +77,31 @@ const MainMovie = styled.video`
   display: block;
   width: 100%;
 `;
+
+const StoreButtonsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
+const ProductItem = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  img {
+    margin-bottom: 1rem;
+  }
+`
+
+const ProductSection = styled.section`
+  background-color: ${Theme.color.white};
+`
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 3rem 0;
+`
