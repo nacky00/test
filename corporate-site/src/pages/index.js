@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Theme from 'theme'
+import { AppleButton } from '../components/atoms/AppleButton'
 
 export default () => (
   <div>
@@ -24,9 +25,7 @@ export default () => (
                 イメージ
               </div>
               <div>
-                <StoreButton width="120px" href="https://apps.apple.com/us/app/caviia/id1546375547" target="_blank">
-                  <img src="/img/apple-badge.png" alt="apple storeからダウンロード" />
-                </StoreButton>
+                <AppleButton/>
                 <StoreButton width="136px" href="https://apps.apple.com/us/app/caviia/id1546375547" target="_blank">
                   <img src="/img/google-play-badge.png" alt="google play storeからダウンロード" />
                 </StoreButton>
