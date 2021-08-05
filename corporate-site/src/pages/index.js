@@ -2,6 +2,48 @@ import React from 'react'
 import styled from 'styled-components'
 import Theme from 'theme'
 
+export default () => (
+  <div>
+    <MainVisual>
+      <MainTitle>
+        <h1>Something Message</h1>
+        <p>message message message</p>
+      </MainTitle>
+      <MainMovie autoPlay="true" loop="true" muted="true" playsInline>
+        <source src="/sample_movie.mp4" type="video/mp4"/>
+      </MainMovie>
+    </MainVisual>
+    
+    <div className="contents" style={{ backgroundColor: "beige", marginTop: "32%" }}>
+        <section>
+          <div style={{ backgroundColor: "pink" }}>
+            <h1>Product</h1>
+            <div>
+              <div>
+                <img />
+                イメージ
+              </div>
+              <div>
+                <StoreButton width="120px" href="https://apps.apple.com/us/app/caviia/id1546375547" target="_blank">
+                  <img src="/img/apple-badge.png" alt="apple storeからダウンロード" />
+                </StoreButton>
+                <StoreButton width="136px" href="https://apps.apple.com/us/app/caviia/id1546375547" target="_blank">
+                  <img src="/img/google-play-badge.png" alt="google play storeからダウンロード" />
+                </StoreButton>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            test
+          </div>
+        </section>
+      </div>
+  </div>
+)
+
+
 const MainVisual = styled.div`
     position: fixed;
     width: 100%;
@@ -34,39 +76,10 @@ const MainMovie = styled.video`
   width: 100%;
 `;
 
-export default () => (
-  <div>
-    <MainVisual>
-      <MainTitle>
-        <h1>Something Message</h1>
-        <p>message message message</p>
-      </MainTitle>
-      <MainMovie autoPlay="true" loop="true" muted="true" playsInline>
-        <source src="/sample_movie.mp4" type="video/mp4"/>
-      </MainMovie>
-    </MainVisual>
-    
-    <div className="contents" style={{ backgroundColor: "beige", marginTop: "32%" }}>
-        <section>
-          <div style={{ backgroundColor: "pink" }}>
-            <h1>Product</h1>
-            <div>
-              <div>
-                <img />
-                イメージ
-              </div>
-              <div>
-                <button>AppStore</button>
-                <button>GooglePlay</button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div>
-            test
-          </div>
-        </section>
-      </div>
-  </div>
-)
+const StoreButton = styled.a.attrs(props => ({
+  width: props.width || "124px",
+}))`
+  display: block;
+  width: ${props => props.width};
+  height: auto;
+`
