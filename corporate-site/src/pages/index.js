@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Theme from 'theme'
-import { AppleButton } from '../components/atoms/AppleButton'
+import { AppleButton } from 'components/atoms/AppleButton'
 
 export default () => (
   <div>
