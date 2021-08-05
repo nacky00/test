@@ -36,11 +36,6 @@ export default () => (
               </ProductItem>
           </Wrapper>
         </ProductSection>
-        <section>
-          <div>
-            test
-          </div>
-        </section>
       </div>
   </div>
 )
