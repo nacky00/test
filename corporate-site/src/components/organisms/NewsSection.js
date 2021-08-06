@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Theme from 'theme'
 import { Link } from 'components/Router'
 import { newsData } from 'data';
-import { WideWrapperStyle } from 'components/atoms/Wrapper/wideStyle';
+import { NormalWrapperStyle } from 'components/atoms/Wrapper/style';
 
 const outputNews = newsData.filter((output) => {
     return output.target == "all"
@@ -41,7 +41,7 @@ const Section = styled.section`
 `
 
 const Wrapper = styled.div`
-    ${WideWrapperStyle}
+    ${NormalWrapperStyle}
 `
 
 const ItemWrapper = styled.div`

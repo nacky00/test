@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Theme from 'theme'
 import { NewsSection } from 'components/organisms/NewsSection'
 import { ProductSection } from 'components/organisms/ProductSection'
+import { CompanySection } from 'components/organisms/CompanySection'
 
 export default () => (
   <div>
@@ -19,6 +20,7 @@ export default () => (
     <div className="contents" style={{ backgroundColor: "beige", marginTop: "32%" }}>
         <ProductSection />
         <NewsSection />
+        <CompanySection />
       </div>
   </div>
 )
