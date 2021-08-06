@@ -2,14 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import Theme from 'theme'
 import { Link } from 'components/Router'
-import { newsData } from '../../data';
+import { newsData } from 'data';
 
 export const NewsSection = props => {
     return (
         <Section>
             <Wrapper>
             <h1 style={{ color: "white" }}>News</h1>
-            {newsData.map((body,key) => {
+            {newsData.reverse().slice(0,2).map((body,key) => {
                 return(
                     <ItemWrapper key={key}>
                         <Item href={body.url} target="_blank">
@@ -57,6 +57,7 @@ a {
 const ItemWrapper = styled.div`
     padding: 2rem 0;
     border-bottom: solid 1px ${Theme.color.grey900};
+    width: 100%;
 `
 
 const Item = styled.a`
