@@ -35,6 +35,10 @@ export const NewsSection = props => {
     )
 }
 
+const Section = styled.section`
+    background-color: ${Theme.color.black};
+`
+
 const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
@@ -43,22 +47,6 @@ const Wrapper = styled.div`
     max-width: 800px;
     padding: 3rem 0;
 `
-
-const Section = styled.section`
-    background-color: ${Theme.color.black};
-`
-
-const MoreButton = styled.div`
-a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-bottom: solid 1px ${Theme.color.white};
-    p {
-        color: ${Theme.color.white};
-    }
-}`
-
 
 const ItemWrapper = styled.div`
     padding: 2rem 0;
@@ -87,4 +75,16 @@ const BottomWrapper = styled.div`
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    padding-top: 2rem;
 `
+
+const MoreButton = styled.div`
+a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: solid 1px ${Theme.color.white};
+    p {
+        color: ${Theme.color.white};
+    }
+}`
