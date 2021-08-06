@@ -4,12 +4,16 @@ import Theme from 'theme'
 import { Link } from 'components/Router'
 import { newsData } from 'data';
 
+const outputNews = newsData.filter((output) => {
+    return output.target == "all"
+})
+
 export const NewsSection = props => {
     return (
         <Section>
             <Wrapper>
             <h1 style={{ color: "white" }}>News</h1>
-            {newsData.reverse().slice(0,2).map((body,key) => {
+            {outputNews.reverse().slice(0,2).map((body,key) => {
                 return(
                     <ItemWrapper key={key}>
                         <Item href={body.url} target="_blank">
@@ -19,11 +23,13 @@ export const NewsSection = props => {
                     </ItemWrapper>
                 )
             })}
-                <MoreButton>
-                    <Link to="/news">
-                        <p>News</p><p>→</p>
-                    </Link>
-                </MoreButton>
+                <BottomWrapper>
+                    <MoreButton>
+                        <Link to="/news">
+                            <p>View All</p><p>→</p>
+                        </Link>
+                    </MoreButton>
+                </BottomWrapper>
             </Wrapper>
         </Section>
     )
@@ -75,4 +81,10 @@ const Summary = styled.div`
     color: ${Theme.color.grey400};
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
+`
+
+const BottomWrapper = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 `
