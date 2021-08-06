@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Theme from 'theme'
 import { AppleButton } from 'components/atoms/AppleButton'
 import { GooglePlayButton } from 'components/atoms/GooglePlayButton'
-import { Link } from 'components/Router'
+import { NewsSection } from 'components/organisms/NewsSection'
 
 export default () => (
   <div>
@@ -37,22 +37,7 @@ export default () => (
               </ProductItem>
           </Wrapper>
         </ProductSection>
-        <NewsSection>
-          <Wrapper>
-            <h1 style={{ color: "white" }}>News</h1>
-            <NewsItem>
-              <a href=""><p>2021.05.12</p><p>「Okinawa Startup Program」のデモデイが開催され、代表の西村が発表いたしました</p></a>
-            </NewsItem>
-            <NewsItem>
-              <a href=""><p>2021.05.12</p><p>「Okinawa Startup Program」のデモデイが開催され、代表の西村が発表いたしました</p></a>
-            </NewsItem>
-            <MoreButton>
-              <Link to="/news">
-                <p>News</p><p>→</p>
-              </Link>
-            </MoreButton>
-          </Wrapper>
-        </NewsSection>
+        <NewsSection />
       </div>
   </div>
 )
@@ -116,33 +101,4 @@ const Wrapper = styled.div`
   margin: 0 auto;
   max-width: 800px;
   padding: 3rem 0;
-`
-
-const NewsSection = styled.section`
-  background-color: ${Theme.color.black};
-`
-
-const MoreButton = styled.div`
-  a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-bottom: solid 1px ${Theme.color.white};
-    p {
-      color: ${Theme.color.white};
-    }
-  }
-  
-`
-
-const NewsItem = styled.div`
-  border-bottom: solid 1px ${Theme.color.white};
-  a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    p {
-      color: ${Theme.color.white};
-    }
-  }
 `
