@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Theme from 'theme'
 import { AppleButton } from 'components/atoms/AppleButton'
 import { GooglePlayButton } from 'components/atoms/GooglePlayButton'
+import { WideWrapperStyle } from 'components/atoms/Wrapper/wideStyle'
 
 export const ProductSection = props => {
     return (
@@ -48,10 +49,5 @@ const Section = styled.section`
 `
 
 const Wrapper = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 3rem 0;
+    ${WideWrapperStyle}
 `
