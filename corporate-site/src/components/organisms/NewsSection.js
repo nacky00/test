@@ -2,18 +2,23 @@ import React from 'react'
 import styled from 'styled-components'
 import Theme from 'theme'
 import { Link } from 'components/Router'
+import { newsData } from '../../data';
 
 export const NewsSection = props => {
     return (
         <Section>
             <Wrapper>
             <h1 style={{ color: "white" }}>News</h1>
-                <ItemWrapper>
-                    <Item href="" target="_blank">
-                        <Date>2021.05.12</Date>
-                        <Summary>「Okinawa Startup Program」のデモデイが開催され、代表の西村が発表いたしましたあああああああああああああああ</Summary>
-                    </Item>
-                </ItemWrapper>
+            {newsData.map((body,key) => {
+                return(
+                    <ItemWrapper key={key}>
+                        <Item href={body.url} target="_blank">
+                            <Date>{body.date}</Date>
+                            <Summary>{body.title}</Summary>
+                        </Item>
+                    </ItemWrapper>
+                )
+            })}
                 <MoreButton>
                     <Link to="/news">
                         <p>News</p><p>→</p>
