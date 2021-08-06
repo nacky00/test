@@ -2,9 +2,9 @@ import React from 'react'
 import { Root, Routes, addPrefetchExcludes } from 'react-static'
 //
 import { Link, Router } from 'components/Router'
-import Header from 'components/organisms/Header'
-import Footer from 'components/organisms/Footer'
 import Dynamic from 'containers/Dynamic'
+import Footer from 'components/organisms/Footer'
+import Header from 'components/organisms/Header'
 
 import './app.css'
 
