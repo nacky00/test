@@ -4,6 +4,7 @@ import Theme from 'theme'
 import { NewsSection } from 'components/organisms/NewsSection'
 import { ProductSection } from 'components/organisms/ProductSection'
 import { CompanySection } from 'components/organisms/CompanySection'
+import { ContactSection } from 'components/organisms/ContactSection'
 
 export default () => (
   <div>
@@ -21,6 +22,7 @@ export default () => (
         <ProductSection />
         <NewsSection />
         <CompanySection />
+        <ContactSection />
       </div>
   </div>
 )

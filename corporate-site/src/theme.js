@@ -5,7 +5,8 @@ const Theme = {
         grey200: "#EEEEEE",
         grey400: "#BDBDBD",
         grey700: "#616161",
-        grey900: "#212121"
+        grey900: "#212121",
+        goldDark: "#302814"
     },
     font: {
         xlarge: "2rem", // 16px * 2 = 24px
