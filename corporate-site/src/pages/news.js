@@ -48,19 +48,28 @@ const NewsGrid = styled.div`
 const CardsWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
+    margin: -.75rem;
 `;
 
 const CardContainer = styled.div`
-    width: 50%;
-    flex: 0 0 auto;
+    width: calc(50% - 1.5rem);
+    padding: .75rem;
 `;
 
 const NewsCard = styled.div`
     display: flex;
     flex-direction: column;
-    width: 100%;
     height: 100%;
     position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 30px rgb(49 49 49 / 30%);
+    }
 `;
 
 const ImageBlock = styled.div`
@@ -76,6 +85,7 @@ const TextBlock = styled.div`
     background-color: ${Theme.color.grey400};
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+    padding: 1.5rem 1rem;
 `;
 
 const Stack = styled.div`
