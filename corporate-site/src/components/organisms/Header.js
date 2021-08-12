@@ -17,6 +17,11 @@ const NavHeader = styled.div`
 
 const NavLeft = styled.div`
     color: white;
+    margin-left: 2rem;
+    img {
+        width: 150px;
+        height: auto;
+    }
 `
 
 const NavRight = styled.div`
@@ -35,7 +40,7 @@ class Header extends React.Component {
             return(
                 <Nav>
                     <NavHeader>
-                        <NavLeft>RelyonTrip</NavLeft>
+                        <NavLeft><img src="/img/corporate-logo.png"/></NavLeft>
                         <NavRight>
                             <Link to="/"><Title>About</Title></Link>
                             <Link to="/"><Title>Products</Title></Link>
