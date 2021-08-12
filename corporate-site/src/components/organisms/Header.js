@@ -7,6 +7,7 @@ const Nav = styled.nav`
     background-color: #000000;
     position: fixed;
     top: 0;
+    z-index: 10;
 `;
 
 const NavHeader = styled.div`
