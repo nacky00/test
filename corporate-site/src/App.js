@@ -15,12 +15,6 @@ function App() {
   return (
     <Root>
       <Header />
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/dynamic">Dynamic</Link>
-      </nav>
       <div>
         <React.Suspense fallback={<em>Loading...</em>}>
           <Router>

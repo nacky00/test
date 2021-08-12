@@ -3,9 +3,11 @@ import { Link } from 'components/Router'
 
 import styled from 'styled-components'
 
-const Nav = styled.div`
+const Nav = styled.nav`
     background-color: #000000;
     padding: 1.6rem;
+    position: fixed;
+    top: 0;
 `;
 
 const NavHeader = styled.div`
