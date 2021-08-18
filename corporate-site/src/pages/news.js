@@ -12,36 +12,35 @@ const outputNews = newsData.filter((output) => {
 
 export default function News() {
     return (
-    <div style={{ zIndex: "999", maxWidth: "800px", margin: "0 auto" }}>
-        <h1>お知らせ</h1>
-        <h1>お知らせ</h1>
-        <h1>お知らせ</h1>
-        <NewsGrid>
-            <CardsWrapper>
-                {outputNews.reverse().map((body,key) => {
-                    return(
-                        <CardContainer key={key}>
-                            <NewsCard>
-                                <ImageBlock style={{ backgroundImage: `url("/img/news/20210701-01.png")` }}/>
-                                <TextBlock>
-                                    <Stack>
-                                        <Label><span>{body.category}</span></Label>
-                                        <NewsCardTitle><a href={body.url} target="_blank">{body.title}</a></NewsCardTitle>
-                                    </Stack>
-                                </TextBlock>
-                            </NewsCard>
-                        </CardContainer>
-                    )
-                })}
-            </CardsWrapper>
-        </NewsGrid>
+    <div style={{ backgroundColor: "black" }}>
+        <div style={{ zIndex: "999", maxWidth: "800px", margin: "0 auto", paddingTop: "120px", paddingBottom: "120px"}}>
+            <h1 style={{ color: "white" }}>お知らせ</h1>
+            <NewsGrid>
+                <CardsWrapper>
+                    {outputNews.reverse().map((body,key) => {
+                        return(
+                            <CardContainer key={key}>
+                                <NewsCard>
+                                    <ImageBlock style={{ backgroundImage: `url("/img/news/20210701-01.png")` }}/>
+                                    <TextBlock>
+                                        <Stack>
+                                            <Label><span>{body.category}</span></Label>
+                                            <NewsCardTitle><a href={body.url} target="_blank">{body.title}</a></NewsCardTitle>
+                                        </Stack>
+                                    </TextBlock>
+                                </NewsCard>
+                            </CardContainer>
+                        )
+                    })}
+                </CardsWrapper>
+            </NewsGrid>
+        </div>
     </div>
     )
 }
 
 const NewsGrid = styled.div`
     width: 100%;
-    background-color: pink;
 `;
 
 
@@ -68,7 +67,6 @@ const NewsCard = styled.div`
         left: 0;
         width: 100%;
         height: 100%;
-        box-shadow: 0 0 30px rgb(49 49 49 / 30%);
     }
 `;
 
