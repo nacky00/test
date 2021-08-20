@@ -5,7 +5,7 @@ const NormalContainer = css`
 `;
 
 const SubContainer = css`
-    padding: 1rem 0;
+    padding-top: 1.2rem;
 `;
 
 export { NormalContainer, SubContainer };

@@ -9,8 +9,14 @@ const PageMainTitle = css`
     margin-bottom: 1rem;
 `
 const ElementHeader = css`
-    font-size: ${Theme.font.normal};
+    font-size: ${Theme.font.medium};
     font-weight: ${Theme.weight.bold};
+    color: ${Theme.color.grey400};
+`
+
+const ElementSubHeader = css`
+    font-size: ${Theme.font.normal};
+    font-weight: ${Theme.weight.normal};
     color: ${Theme.color.grey400};
 `
 
@@ -23,6 +29,7 @@ const NormalText = css`
 const NormalLi = css`
     font-size: ${Theme.font.normal};
     color: ${Theme.color.grey400};
+    padding-bottom: 0.4rem;
 `
 
 const NormalOl = css`
@@ -30,4 +37,9 @@ const NormalOl = css`
     color: ${Theme.color.grey400};
 `
 
-export { PageMainTitle, ElementHeader, NormalText, NormalLi, NormalOl };
+const NormalUl = css`
+    font-size: ${Theme.font.normal};
+    color: ${Theme.color.grey400};
+`
+
+export { PageMainTitle, ElementHeader, ElementSubHeader, NormalText, NormalLi, NormalOl, NormalUl };
