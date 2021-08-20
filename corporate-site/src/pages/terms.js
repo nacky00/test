@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Theme from 'theme'
 import { NormalWrapperStyle } from 'components/atoms/Wrapper/style'
 import { FullPageSectionStyle } from 'components/atoms/Section/style'
+import { PageMainTitle, ElementHeader, NormalText, NormalLi, NormalOl } from 'components/atoms/Text/style'
 
 export default function Terms() {
     return (
@@ -208,27 +209,20 @@ const SubContainer = styled.div`
 `
 
 const Title = styled.div`
-    font-size: ${Theme.font.xlarge};
-    font-weight: ${Theme.weight.bold};
-    color: ${Theme.color.grey400};
-    margin-bottom: 1rem;
+    ${PageMainTitle};
 `
+
 const Header = styled.div`
-    font-size: ${Theme.font.normal};
-    font-weight: ${Theme.weight.bold};
-    color: ${Theme.color.grey400};
+    ${ElementHeader};
 `
+
 const Text = styled.p`
-    font-size: ${Theme.font.normal};
-    color: ${Theme.color.grey400};
+    ${NormalText};
 `
 
 const Li = styled.li`
-    font-size: ${Theme.font.normal};
-    color: ${Theme.color.grey400};
+    ${NormalLi};
 `
 const Ol = styled.ol`
-    font-size: ${Theme.font.normal};
-    color: ${Theme.color.grey400};
+    ${NormalOl};
 `
-
