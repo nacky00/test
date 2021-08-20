@@ -70,7 +70,7 @@ class Footer extends React.Component {
                             <Block>
                                 <Element><Link to="/">RelyonTrip</Link></Element>
                                 <Element><Link to="/">お問い合わせ</Link></Element>
-                                <Element><Link to="/">プライバシーポリシー</Link></Element>
+                                <Element><Link to="/privacy-policy">プライバシーポリシー</Link></Element>
                                 <Element><Link to="/terms">利用規約</Link></Element>
                             </Block>
                         </Contents>
