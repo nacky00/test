@@ -63,7 +63,7 @@ class Footer extends React.Component {
                         <Title>RelyonTrip</Title>
                         <Contents>
                             <Block>
-                                <Element><Link to="/">おでかけアプリ「Sassy」</Link></Element>
+                                <Element><Link to="/sassy">おでかけアプリ「Sassy」</Link></Element>
                                 <Element><Link to="/">人生No.1飲食店SNS「Caviia」</Link></Element>
                                 <Element><Link to="/">関連リンク集</Link></Element>
                             </Block>
