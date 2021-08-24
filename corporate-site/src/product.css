@@ -1,15 +1,5 @@
 /* TODO: 当ファイルの削除 */
 
-html {
-  font-size: 62.5% !important;
-}
-
-body {
-  margin: 0;
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
-  background-color: #1B1D21;
-}
-
 main {
   padding: 5rem 0;
   background-color: #1B1D21;
