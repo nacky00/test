@@ -8,7 +8,7 @@ export const ContactSection = props => {
         <Section>
             <Wrapper>
                     <Title>Contact</Title>
-                    <Button href="" target="_blank">お問い合わせはこちら</Button>
+                    <Button><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0hMiTOxYSTDbsYl3uevU_f9uhFxnL4-9d2uXbQPAmSNo8zQ/viewform" target="_blank">お問い合わせはこちら</a></Button>
             </Wrapper>
         </Section>
     )
@@ -35,9 +35,11 @@ const Button = styled.button`
     border: 1px solid ${Theme.color.grey700};
     padding: 2rem 6rem;
     border-radius: 8px;
-    font-size: ${Theme.font.large};
-    font-weight: ${Theme.weight.bold};
-    color: ${Theme.color.grey400};
+    a {
+        color: ${Theme.color.white};
+        font-size: ${Theme.font.large};
+        font-weight: ${Theme.weight.normal};
+    }
     &:hover {
         background-color: rgba(0, 0, 0, 0.2);
         cursor: pointer;
