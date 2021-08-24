@@ -6,7 +6,7 @@ import { newsData } from 'data';
 import { NormalWrapperStyle } from 'components/atoms/Wrapper/style';
 
 const outputNews = newsData.filter((output) => {
-    return output.target == "all"
+    return output.target == "all" || "company"
 })
 
 export const NewsSection = props => {
@@ -14,7 +14,7 @@ export const NewsSection = props => {
         <Section>
             <Wrapper>
             <h1 style={{ color: "white" }}>News</h1>
-            {outputNews.reverse().slice(0,2).map((body,key) => {
+            {outputNews.reverse().slice(0,4).map((body,key) => {
                 return(
                     <ItemWrapper key={key}>
                         <Item href={body.url} target="_blank">
@@ -60,6 +60,7 @@ const Date = styled.div`
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
     padding-right: 2rem;
+    width: 20%;
 `
 const Summary = styled.div`
     color: ${Theme.color.grey400};
