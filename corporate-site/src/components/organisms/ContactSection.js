@@ -33,9 +33,10 @@ const Title = styled.div`
 const Button = styled.button`
     background-color: rgba(0, 0, 0, 0.4);
     border: 1px solid ${Theme.color.grey700};
-    padding: 2rem 6rem;
     border-radius: 8px;
     a {
+        display: block;
+        padding: 2rem 6rem;
         color: ${Theme.color.white};
         font-size: ${Theme.font.large};
         font-weight: ${Theme.weight.normal};
