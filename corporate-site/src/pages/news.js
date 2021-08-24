@@ -1,5 +1,4 @@
 import React from 'react'
-import { useRouteData } from 'react-static'
 import styled from 'styled-components'
 import Theme from 'theme'
 import { newsData } from 'data';
@@ -15,19 +14,19 @@ export default function News() {
     return (
         <Section>
             <Wrapper>
-            <h1 style={{ color: "white" }}>お知らせ</h1>
-            {outputNews.reverse().map((body,key) => {
-                return(
-                    <ItemWrapper key={key}>
-                        <Item href={body.url} target="_blank">
-                            <Date>{body.date}</Date>
-                            <Summary>{body.title}</Summary>
-                        </Item>
-                    </ItemWrapper>
-                )
-            })}
-    </Wrapper>
-    </Section>
+                <h1 style={{ color: "white" }}>お知らせ</h1>
+                {outputNews.reverse().map((body,key) => {
+                    return(
+                        <ItemWrapper key={key}>
+                            <Item href={body.url} target="_blank">
+                                <Date>{body.date}</Date>
+                                <Summary>{body.title}</Summary>
+                            </Item>
+                        </ItemWrapper>
+                    )
+                })}
+            </Wrapper>
+        </Section>
     )
 }
 
