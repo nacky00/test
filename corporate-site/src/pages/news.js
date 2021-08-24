@@ -6,7 +6,7 @@ import { NormalWrapperStyle } from 'components/atoms/Wrapper/style'
 import { FullPageSectionStyle  } from 'components/atoms/Section/style'
 
 const outputNews = newsData.filter((output) => {
-    return output.target == "all"
+    return output.target == "all" || "company"
 })
 
 
@@ -55,6 +55,7 @@ const Date = styled.div`
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
     padding-right: 2rem;
+    width: 20%;
 `
 const Summary = styled.div`
     color: ${Theme.color.grey400};
