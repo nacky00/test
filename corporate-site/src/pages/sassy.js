@@ -20,13 +20,13 @@ export default function Sassy() {
                         </div>
                         <h2>スポット直感型アプリ</h2>
                     </div>
-                    <img src="../images/logo/logo-white.png" alt="Sassyロゴ" width="180px" height="auto" className="logo" />
+                    <img src="/img/logo-white.png" alt="Sassyロゴ" width="180px" height="auto" className="logo" />
                     <div className="app-download-container">
-                        <a href="https://itunes.apple.com/jp/app/id1496112424?mt=8" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'itunes.apple.com/jp/app/id1496112424?mt=8 in_sassy_index top','value':'1'});"><img src="../images/appstore.svg" alt="AppStoreでSassyをインストールする" /></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'play.google.com/store/apps/details?id=com.relyontrip.sassy in_sassy_index top','value':'1'});"><img src="../images/playstore.svg" alt="GooglePlayでSassyをインストールする" /></a>
+                        <a href="https://itunes.apple.com/jp/app/id1496112424?mt=8" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'itunes.apple.com/jp/app/id1496112424?mt=8 in_sassy_index top','value':'1'});"><img src="/img/apple-badge.png" alt="AppStoreでSassyをインストールする" style={{ width: "124px" }}/></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'play.google.com/store/apps/details?id=com.relyontrip.sassy in_sassy_index top','value':'1'});"><img src="/img/google-play-badge.png" alt="GooglePlayでSassyをインストールする" style={{ width: "154px" }}/></a>
                     </div>
                     <video playsinline="" muted="muted" loop="loop" autoplay="autoplay" height="auto;" min-width="240px;" width="320px;" style={{ borderRadius: "16px", margin: "32px 0px" }}>
-                        <source src="/movies/feature_movie.mp4" type="video/mp4" />
+                        <source src="/feature_movie.mp4" type="video/mp4" />
                     </video>
                 </div>
             </section>
@@ -45,8 +45,8 @@ export default function Sassy() {
                         <p>平日で計画でワクワク、休日は行ってワクワク。おでかけに、彩りを。</p>
                     </div>
                     <div className="app-download-container">
-                        <a href="https://itunes.apple.com/jp/app/id1496112424?mt=8" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'itunes.apple.com/jp/app/id1496112424?mt=8 in_sassy_index middle','value':'1'});"><img src="../images/appstore.svg" alt="AppStoreでSassyをインストールする" /></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'play.google.com/store/apps/details?id=com.relyontrip.sassy in_sassy_index middle','value':'1'});"><img src="../images/playstore.svg" alt="GooglePlayでSassyをインストールする" /></a>
+                        <a href="https://itunes.apple.com/jp/app/id1496112424?mt=8" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'itunes.apple.com/jp/app/id1496112424?mt=8 in_sassy_index middle','value':'1'});"><img src="/img/apple-badge.png" alt="AppStoreでSassyをインストールする"  style={{ width: "124px" }}/></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'play.google.com/store/apps/details?id=com.relyontrip.sassy in_sassy_index middle','value':'1'});"><img src="/img/google-play-badge.png" alt="GooglePlayでSassyをインストールする" style={{ width: "154px" }} /></a>
                     </div>
                 </div>
             </section>
@@ -55,21 +55,21 @@ export default function Sassy() {
                 <div className="contents-inner">
                     <h2>テーマ別スポットまとめ集</h2>
                     <div className="dj-container">
-                        <img src="../images/material/dj-01.jpg" className="dj-avatar" />
-                        <img src="../images/material/dj-02.jpg" className="dj-avatar" />
-                        <img src="../images/material/dj-03.jpg" className="dj-avatar" />
-                        <img src="../images/material/dj-04.jpg" className="dj-avatar" />
-                        <img src="../images/material/dj-05.jpg" className="dj-avatar" />
+                        <img src="/img/dj-01.jpg" className="dj-avatar" />
+                        <img src="/img/dj-02.jpg" className="dj-avatar" />
+                        <img src="/img/dj-03.jpg" className="dj-avatar" />
+                        <img src="/img/dj-04.jpg" className="dj-avatar" />
+                        <img src="/img/dj-05.jpg" className="dj-avatar" />
                     </div>
                     <div className="about-dj">
                         <p>数々の良質スポットを知り尽くした「おでかけのプロ」が、テーマにあわせたイチオシのスポットを厳選してパッケージ化しました。一般的な「まとめサイト」と違い、Sassyの「まとめ集」では複数のスポットをマップでまとめて把握でき、そのままお気に入り保存も可能です。</p>
                     </div>
                     <div className="card">
-                        <img src="../images/feature-images/playlist-and-map.jpg" alt="おでかけDJセレクト" className="" />
+                        <img src="/img/playlist-and-map.jpg" alt="おでかけDJセレクト" className="" />
                     </div>
                     <h3>コンテンツ、続々充実。</h3>
                     <div className="playlist-sample">
-                        <img src="../images/material/playlist-sample.jpg" alt="おでかけDJセレクトサンプル" className="" />
+                        <img src="/img/playlist-sample.jpg" alt="おでかけDJセレクトサンプル" className="" />
                     </div>
                     <div className="about-dj">
                         <p>まとめ集では、数々のワクワクするテーマをご用意。</p>
@@ -87,7 +87,7 @@ export default function Sassy() {
                             <div className="text">２人の「行きたい」スポットを自動でマッチング。</div>
                         </div>
                         <div className="bg-card card-blue">
-                            <img src="../images/feature-images/friends.jpg" alt="友だちと「行きたい」を共有" className="screen-shot" />
+                            <img src="/img/friends.jpg" alt="友だちと「行きたい」を共有" className="screen-shot" />
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ export default function Sassy() {
                 <div className="contents-inner">
                     <div className="feature-row end">
                         <div className="bg-card card-left card-orange">
-                            <img src="../images/feature-images/swipe.jpg" alt="直感で行きたいスポットを探す" className="screen-shot screen-shot-left" />
+                            <img src="/img/swipe.jpg" alt="直感で行きたいスポットを探す" className="screen-shot screen-shot-left" />
                         </div>
                         <div className="feature-contents margin-left">
                             <h2>自分の好みは「直感」で探す</h2>
@@ -115,7 +115,7 @@ export default function Sassy() {
                             <div className="text">あなただけの「行きたいマップ」が自動で完成。</div>
                         </div>
                         <div className="bg-card card-biolate">
-                            <img src="../images/feature-images/instagram-map.jpg" alt="インスタとマップが連動友だちと「行きたい」を共有" className="screen-shot" />
+                            <img src="/img/instagram-map.jpg" alt="インスタとマップが連動友だちと「行きたい」を共有" className="screen-shot" />
                         </div>
                     </div>
                 </div>
@@ -217,14 +217,14 @@ export default function Sassy() {
                 <div className="contents-inner">
                     <div className="feature-row">
                         <div className="bg-card card-left">
-                            <img src="../images/feature-images/girls.jpg" alt="Sassyを使って友だちと出かけよう" className="screen-shot" />
+                            <img src="/img/girls.jpg" alt="Sassyを使って友だちと出かけよう" className="screen-shot" />
                         </div>
                         <div className="feature-contents">
                             <h3>さあ、外に繰り出そう。</h3>
-                            <img src="../images/logo/app-logo.png" alt="Sassyアプリロゴ" className="app-logo" />
+                            <img src="/img/app-logo.png" alt="Sassyアプリロゴ" className="app-logo" />
                             <div className="app-download-container">
-                                <a href="https://itunes.apple.com/jp/app/id1496112424?mt=8" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'itunes.apple.com/jp/app/id1496112424?mt=8 in_sassy_index bottom','value':'1'});"><img src="../images/appstore.svg" alt="AppStoreでSassyをインストールする" /></a>
-                                <a href="https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'play.google.com/store/apps/details?id=com.relyontrip.sassy in_sassy_index bottom','value':'1'});"><img src="../images/playstore.svg" alt="GooglePlayでSassyをインストールする" /></a>
+                                <a href="https://itunes.apple.com/jp/app/id1496112424?mt=8" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'itunes.apple.com/jp/app/id1496112424?mt=8 in_sassy_index bottom','value':'1'});"><img src="/img/apple-badge.png" alt="AppStoreでSassyをインストールする" style={{ width: "124px" }} /></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'play.google.com/store/apps/details?id=com.relyontrip.sassy in_sassy_index bottom','value':'1'});"><img src="/img/google-play-badge.png" alt="GooglePlayでSassyをインストールする" style={{ width: "154px" }} /></a>
                             </div>
                         </div>
                     </div>
@@ -236,13 +236,13 @@ export default function Sassy() {
                         <h3>さあ、</h3>
                         <h3>外に繰り出そう。</h3>
                         <div className="bg-card card-left">
-                            <img src="../images/feature-images/girls-for-sp.jpg" alt="Sassyを使って友だちと出かけよう" className="screen-shot" />
+                            <img src="/img/girls-for-sp.jpg" alt="Sassyを使って友だちと出かけよう" className="screen-shot" />
                         </div>
                         <div className="feature-contents">
-                            <img src="../images/logo/app-logo.png" alt="Sassyアプリロゴ" className="app-logo" />
+                            <img src="/img/app-logo.png" alt="Sassyアプリロゴ" className="app-logo" />
                             <div className="app-download-container">
-                                <a href="https://itunes.apple.com/jp/app/id1496112424?mt=8" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'itunes.apple.com/jp/app/id1496112424?mt=8 in_sassy_index bottom','value':'1'});"><img src="../images/appstore.svg" alt="AppStoreでSassyをインストールする" /></a>
-                                <a href="https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'play.google.com/store/apps/details?id=com.relyontrip.sassy in_sassy_index bottom','value':'1'});"><img src="../images/playstore.svg" alt="GooglePlayでSassyをインストールする" /></a>
+                                <a href="https://itunes.apple.com/jp/app/id1496112424?mt=8" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'itunes.apple.com/jp/app/id1496112424?mt=8 in_sassy_index bottom','value':'1'});"><img src="/img/apple-badge.png" alt="AppStoreでSassyをインストールする" style={{ width: "124px" }} /></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob" target="_blank" onclick="gtag('event', 'click', {'event_category':'link','event_label':'play.google.com/store/apps/details?id=com.relyontrip.sassy in_sassy_index bottom','value':'1'});"><img src="/img/google-play-badge.png" alt="GooglePlayでSassyをインストールする" style={{ width: "154px" }} /></a>
                             </div>
                         </div>
                     </div>
