@@ -236,7 +236,7 @@ main p {
 }
 
 .app-description .contents-inner .app-download-container a + a {
-  margin-left: 0.6rem;
+  margin-left: 0.375rem;
 }
 
 .app-description .contents-inner .app-download-container img {
@@ -576,7 +576,7 @@ main p {
   font-size: 0.875rem;
   margin: 0;
   color: #ABABAD;
-  padding-bottom: 0.6rem;
+  padding-bottom: 0.375rem;
   font-weight: 400;
 }
 
@@ -640,7 +640,7 @@ main p {
     justify-content: flex-start;
   }
   .overflow-app-download .contents-inner .feature-row .feature-contents .app-download-container a + a {
-    margin-left: 0.6rem;
+    margin-left: 0.375rem;
   }
   .overflow-app-download .contents-inner .feature-row .feature-contents .app-download-container img {
     width: 100%;
@@ -717,7 +717,7 @@ main p {
     justify-content: flex-start;
   }
   .overflow-app-download-sp .contents-inner .feature-row .feature-contents .app-download-container a + a {
-    margin-left: 0.6rem;
+    margin-left: 0.375rem;
   }
   .overflow-app-download-sp .contents-inner .feature-row .feature-contents .app-download-container img {
     width: 100%;
@@ -983,7 +983,7 @@ main p {
 }
 
 .app-download-container a + a {
-  margin-left: 0.6rem;
+  margin-left: 0.375rem;
 }
 
 .app-download-container img {
