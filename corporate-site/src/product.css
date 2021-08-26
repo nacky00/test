@@ -51,7 +51,7 @@ main p {
 
 @media (max-width: 1024px) {
   .hero-area-wrapper {
-    padding: 3rem 0 3.125rem 0;
+    padding: 1.875rem 0 3.125rem 0;
   }
 }
 
@@ -59,7 +59,7 @@ main p {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 1.25rem 0 3rem 0;
+  padding: 1.25rem 0 1.875rem 0;
 }
 
 .hero-area-wrapper .app-download-container a + a {
@@ -87,7 +87,7 @@ main p {
 
 @media (max-width: 1024px) {
   .hero-area-concept-message h1 {
-    font-size: 3rem;
+    font-size: 1.875rem;
     padding-bottom: 0.625rem;
   }
 }
@@ -118,7 +118,7 @@ main p {
 
 @media (max-width: 1024px) {
   .hero-area-concept-message h3 {
-    font-size: 3rem;
+    font-size: 1.875rem;
     line-height: 1.2;
     padding-top: 0.625rem;
   }
@@ -325,7 +325,7 @@ main p {
 }
 
 .highlight-feature .contents-inner h3 {
-  font-size: 3rem;
+  font-size: 1.875rem;
   color: #ABABAD;
   text-align: center;
   margin: 0;
@@ -803,7 +803,7 @@ main p {
 }
 
 #contact-form-main {
-  padding-bottom: 3rem;
+  padding-bottom: 1.875rem;
 }
 
 #contact-form-main .wrapper {
@@ -921,7 +921,7 @@ main p {
 
 #contact-form-main .wrapper .button-block .qr {
   display: block;
-  padding: 3rem 0 1.25rem 0;
+  padding: 1.875rem 0 1.25rem 0;
 }
 
 #contact-form-main .wrapper .button-block .qr img {
@@ -991,13 +991,13 @@ main p {
 }
 
 footer {
-  padding: 3rem 0;
+  padding: 1.875rem 0;
   background-color: #F6F6F6;
   padding: 2.5rem 0;
 }
 
 footer div + div {
-  margin-top: 3rem;
+  margin-top: 1.875rem;
 }
 
 footer .links-container {
