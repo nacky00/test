@@ -200,7 +200,7 @@ main p {
 }
 
 .app-description .contents-inner h2 {
-  font-size: 3.2rem;
+  font-size: 2rem;
   color: #D1D2D3;
   margin: 0;
   padding: 0.625rem 0;
@@ -292,7 +292,7 @@ main p {
 }
 
 .highlight-feature .contents-inner h2 {
-  font-size: 3.2rem;
+  font-size: 2rem;
   color: #FFFFFF;
   text-align: center;
   margin: 0;
@@ -449,7 +449,7 @@ main p {
 }
 
 .overflow .contents-inner .feature-row .feature-contents h2 {
-  font-size: 3.2rem;
+  font-size: 2rem;
   color: #FFFFFF;
 }
 
@@ -560,7 +560,7 @@ main p {
 
 .topic h2 {
   color: #FF789B;
-  font-size: 3.2rem;
+  font-size: 2rem;
 }
 
 .topic .contents {
@@ -626,7 +626,7 @@ main p {
     align-items: center;
   }
   .overflow-app-download .contents-inner .feature-row .feature-contents h3 {
-    font-size: 3.2rem;
+    font-size: 2rem;
     color: #FF789B;
     margin: 0;
     padding-bottom: 2.4rem;
@@ -680,7 +680,7 @@ main p {
     max-width: 640px;
     margin-right: auto;
     margin-left: auto;
-    padding: 3.2rem;
+    padding: 2rem;
   }
   .overflow-app-download-sp .contents-inner .feature-row {
     display: flex;
