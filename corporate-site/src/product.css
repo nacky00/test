@@ -95,7 +95,7 @@ main p {
 .hero-area-concept-message h2 {
   font-size: 1.25rem;
   margin: 0;
-  padding: 1.4rem;
+  padding: 0.875rem;
   line-height: 1;
   font-weight: 400;
   color: #FFFFFF;
@@ -166,7 +166,7 @@ main p {
 }
 
 .avatar-item + .avatar-item {
-  padding-left: 1.4rem;
+  padding-left: 0.875rem;
 }
 
 @media (max-width: 1024px) {
@@ -224,7 +224,7 @@ main p {
 
 @media (max-width: 1024px) {
   .app-description .contents-inner div p {
-    font-size: 1.4rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -320,7 +320,7 @@ main p {
 
 @media (max-width: 1024px) {
   .highlight-feature .contents-inner .card img {
-    border-radius: 1.4rem;
+    border-radius: 0.875rem;
   }
 }
 
@@ -350,7 +350,7 @@ main p {
 
 @media (max-width: 1024px) {
   .highlight-feature .contents-inner .playlist-sample img {
-    border-radius: 1.4rem;
+    border-radius: 0.875rem;
   }
 }
 
@@ -364,7 +364,7 @@ main p {
 
 @media (max-width: 1024px) {
   .highlight-feature .contents-inner p {
-    font-size: 1.4rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -394,7 +394,7 @@ main p {
 }
 
 .highlight-feature .contents-inner .request-btn {
-  padding: 1.4rem 1.25rem;
+  padding: 0.875rem 1.25rem;
   border-radius: 0.8rem;
   width: 260px;
   border: 1px solid #ABABAD;
@@ -573,7 +573,7 @@ main p {
 }
 
 .topic .contents a .date {
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   margin: 0;
   color: #ABABAD;
   padding-bottom: 0.6rem;
@@ -769,13 +769,13 @@ main p {
 
 .origin h4 {
   color: #FF789B;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   margin: 0;
 }
 
 .origin li {
   color: #ABABAD;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   line-height: 1.8;
 }
 
@@ -845,7 +845,7 @@ main p {
 }
 
 #contact-form-main .wrapper .description div p {
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   line-height: 2;
   margin: 0;
 }
@@ -856,13 +856,13 @@ main p {
 
 #contact-form-main .wrapper .description div .dj-detail a {
   text-decoration: underline;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   color: #FF789B;
   font-weight: 600;
 }
 
 #contact-form-main .wrapper .description div + div {
-  margin-top: 1.4rem;
+  margin-top: 0.875rem;
 }
 
 #contact-form-main .wrapper .description hr {
@@ -881,7 +881,7 @@ main p {
 }
 
 #contact-form-main .wrapper .button-block .btn {
-  padding: 1.4rem 1.25rem;
+  padding: 0.875rem 1.25rem;
   border-radius: 0.8rem;
   width: 260px;
   border: 1px solid #ABABAD;
@@ -916,7 +916,7 @@ main p {
 }
 
 #contact-form-main .wrapper .button-block button + button {
-  margin-top: 1.4rem;
+  margin-top: 0.875rem;
 }
 
 #contact-form-main .wrapper .button-block .qr {
@@ -1023,7 +1023,7 @@ footer .links-container a {
   color: #897E81;
   text-decoration: none;
   padding: 0 0.625rem;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
 }
 
 footer .links-container a:hover {
@@ -1053,7 +1053,7 @@ footer .sns-container a img {
 }
 
 footer .sns-container a + a {
-  margin-left: 1.4rem;
+  margin-left: 0.875rem;
 }
 
 footer .copyright-container {
@@ -1061,7 +1061,7 @@ footer .copyright-container {
 }
 
 footer .copyright-container p {
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   color: #897E81;
 }
 
