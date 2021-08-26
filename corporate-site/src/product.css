@@ -385,7 +385,7 @@ main p {
   .highlight-feature .contents-inner .dj-container .dj-avatar {
     width: 2.5rem;
     height: 2.5rem;
-    margin-right: 0.8rem;
+    margin-right: 0.5rem;
   }
 }
 
@@ -395,7 +395,7 @@ main p {
 
 .highlight-feature .contents-inner .request-btn {
   padding: 0.875rem 1.25rem;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   width: 260px;
   border: 1px solid #ABABAD;
   background-color: #1B1D21;
@@ -851,7 +851,7 @@ main p {
 }
 
 #contact-form-main .wrapper .description div .dj-detail {
-  padding: 0.8rem 0 0.8rem 0;
+  padding: 0.5rem 0 0.5rem 0;
 }
 
 #contact-form-main .wrapper .description div .dj-detail a {
@@ -882,7 +882,7 @@ main p {
 
 #contact-form-main .wrapper .button-block .btn {
   padding: 0.875rem 1.25rem;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   width: 260px;
   border: 1px solid #ABABAD;
   background-color: #1B1D21;
@@ -1032,7 +1032,7 @@ footer .links-container a:hover {
 
 @media (max-width: 1024px) {
   footer .links-container a + a {
-    margin-top: 0.8rem;
+    margin-top: 0.5rem;
   }
 }
 
