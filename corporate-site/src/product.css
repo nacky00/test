@@ -1,7 +1,7 @@
 /* TODO: 当ファイルの削除 */
 
 main {
-  padding: 5rem 0;
+  padding: 3.125rem 0;
   background-color: #1B1D21;
 }
 
@@ -46,12 +46,12 @@ main p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5rem 0;
+  padding: 3.125rem 0;
 }
 
 @media (max-width: 1024px) {
   .hero-area-wrapper {
-    padding: 3rem 0 5rem 0;
+    padding: 3rem 0 3.125rem 0;
   }
 }
 
@@ -109,7 +109,7 @@ main p {
 }
 
 .hero-area-concept-message h3 {
-  font-size: 5rem;
+  font-size: 3.125rem;
   margin: 0;
   line-height: 1.4;
   font-weight: 700;
