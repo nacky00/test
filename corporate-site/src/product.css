@@ -31,7 +31,7 @@ main p {
 
 @media (max-width: 1024px) {
   #sassy-header .wrapper {
-    padding: 0 2rem;
+    padding: 0 1.25rem;
   }
 }
 
@@ -59,7 +59,7 @@ main p {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 2rem 0 3rem 0;
+  padding: 1.25rem 0 3rem 0;
 }
 
 .hero-area-wrapper .app-download-container a + a {
@@ -93,7 +93,7 @@ main p {
 }
 
 .hero-area-concept-message h2 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   margin: 0;
   padding: 1.4rem;
   line-height: 1;
@@ -103,7 +103,7 @@ main p {
 
 @media (max-width: 1024px) {
   .hero-area-concept-message h2 {
-    font-size: 2rem;
+    font-size: 1.25rem;
     line-height: 0.6;
   }
 }
@@ -195,7 +195,7 @@ main p {
 
 @media (max-width: 1024px) {
   .app-description .contents-inner {
-    padding: 0 2rem;
+    padding: 0 1.25rem;
   }
 }
 
@@ -287,7 +287,7 @@ main p {
 
 @media (max-width: 1024px) {
   .highlight-feature .contents-inner {
-    padding: 0 2rem;
+    padding: 0 1.25rem;
   }
 }
 
@@ -305,7 +305,7 @@ main p {
 }
 
 .highlight-feature .contents-inner .about-dj {
-  padding: 0 0 2rem 0;
+  padding: 0 0 1.25rem 0;
 }
 
 .highlight-feature .contents-inner .card {
@@ -334,12 +334,12 @@ main p {
 
 @media (max-width: 1024px) {
   .highlight-feature .contents-inner h3 {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 }
 
 .highlight-feature .contents-inner .playlist-sample {
-  padding: 0 0 2rem 0;
+  padding: 0 0 1.25rem 0;
 }
 
 .highlight-feature .contents-inner .playlist-sample img {
@@ -371,7 +371,7 @@ main p {
 .highlight-feature .contents-inner .dj-container {
   display: flex;
   justify-content: center;
-  padding: 2rem 0;
+  padding: 1.25rem 0;
 }
 
 .highlight-feature .contents-inner .dj-container .dj-avatar {
@@ -394,7 +394,7 @@ main p {
 }
 
 .highlight-feature .contents-inner .request-btn {
-  padding: 1.4rem 2rem;
+  padding: 1.4rem 1.25rem;
   border-radius: 0.8rem;
   width: 260px;
   border: 1px solid #ABABAD;
@@ -554,7 +554,7 @@ main p {
 
 @media (max-width: 1024px) {
   .topic {
-    padding: 0 2rem;
+    padding: 0 1.25rem;
   }
 }
 
@@ -709,7 +709,7 @@ main p {
     align-items: center;
   }
   .overflow-app-download-sp .contents-inner .feature-row .feature-contents .app-logo {
-    padding-bottom: 2.0rem;
+    padding-bottom: 1.25rem;
   }
   .overflow-app-download-sp .contents-inner .feature-row .feature-contents .app-download-container {
     display: flex;
@@ -792,7 +792,7 @@ main p {
 
 @media (max-width: 1024px) {
   #contact-form-header .wrapper {
-    padding: 0 2rem;
+    padding: 0 1.25rem;
   }
 }
 
@@ -825,7 +825,7 @@ main p {
 
 @media (max-width: 1024px) {
   #contact-form-main .wrapper {
-    padding: 0 2rem;
+    padding: 0 1.25rem;
   }
 }
 
@@ -836,7 +836,7 @@ main p {
 }
 
 #contact-form-main .wrapper .description .contents-wrapper {
-  padding: 2rem 0;
+  padding: 1.25rem 0;
 }
 
 #contact-form-main .wrapper .description div {
@@ -881,7 +881,7 @@ main p {
 }
 
 #contact-form-main .wrapper .button-block .btn {
-  padding: 1.4rem 2rem;
+  padding: 1.4rem 1.25rem;
   border-radius: 0.8rem;
   width: 260px;
   border: 1px solid #ABABAD;
@@ -921,7 +921,7 @@ main p {
 
 #contact-form-main .wrapper .button-block .qr {
   display: block;
-  padding: 3rem 0 2rem 0;
+  padding: 3rem 0 1.25rem 0;
 }
 
 #contact-form-main .wrapper .button-block .qr img {
@@ -942,7 +942,7 @@ main p {
 
 @media (max-width: 1024px) {
   .inner-contents {
-    padding: 0 2rem;
+    padding: 0 1.25rem;
   }
 }
 
@@ -959,7 +959,7 @@ main p {
 
 @media (max-width: 1024px) {
   .wide-inner-contents {
-    padding: 0 2rem;
+    padding: 0 1.25rem;
   }
 }
 
