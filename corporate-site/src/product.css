@@ -309,7 +309,7 @@ main p {
 }
 
 .highlight-feature .contents-inner .card {
-  padding: 0 0 6rem 0;
+  padding: 0 0 3.75rem 0;
 }
 
 .highlight-feature .contents-inner .card img {
@@ -376,8 +376,8 @@ main p {
 
 .highlight-feature .contents-inner .dj-container .dj-avatar {
   border-radius: 4rem;
-  width: 6rem;
-  height: 6rem;
+  width: 3.75rem;
+  height: 3.75rem;
   margin-right: 1.2rem;
 }
 
