@@ -229,7 +229,7 @@ main p {
 }
 
 .app-description .contents-inner .app-download-container {
-  margin-top: 2.4rem;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -300,7 +300,7 @@ main p {
 
 @media (max-width: 1024px) {
   .highlight-feature .contents-inner h2 {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -313,7 +313,7 @@ main p {
 }
 
 .highlight-feature .contents-inner .card img {
-  border-radius: 2.4rem;
+  border-radius: 1.5rem;
   width: 100%;
   height: auto;
 }
@@ -343,7 +343,7 @@ main p {
 }
 
 .highlight-feature .contents-inner .playlist-sample img {
-  border-radius: 2.4rem;
+  border-radius: 1.5rem;
   width: 100%;
   height: auto;
 }
@@ -455,7 +455,7 @@ main p {
 
 @media (max-width: 1024px) {
   .overflow .contents-inner .feature-row .feature-contents h2 {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -629,7 +629,7 @@ main p {
     font-size: 2rem;
     color: #FF789B;
     margin: 0;
-    padding-bottom: 2.4rem;
+    padding-bottom: 1.5rem;
   }
   .overflow-app-download .contents-inner .feature-row .feature-contents .app-logo {
     padding-bottom: 3.6rem;
@@ -696,7 +696,7 @@ main p {
 
 @media (max-width: 1024px) {
   .overflow-app-download-sp .contents-inner .feature-row h3 {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     color: #FF789B;
     margin: 0;
     line-height: 1.4;
@@ -832,7 +832,7 @@ main p {
 #contact-form-main .wrapper .description {
   display: flex;
   flex-direction: column;
-  padding: 2.4rem 0;
+  padding: 1.5rem 0;
 }
 
 #contact-form-main .wrapper .description .contents-wrapper {
@@ -1048,7 +1048,7 @@ footer .sns-container a {
 }
 
 footer .sns-container a img {
-  width: 2.4rem;
+  width: 1.5rem;
   height: auto;
 }
 
