@@ -6,7 +6,7 @@ main {
 }
 
 main p {
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 
 #sassy-header {
@@ -215,7 +215,7 @@ main p {
 }
 
 .app-description .contents-inner div p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: #ABABAD;
   margin: 0;
   line-height: 1.6;
@@ -329,7 +329,7 @@ main p {
   color: #ABABAD;
   text-align: center;
   margin: 0;
-  padding: 0 0 1.6rem 0;
+  padding: 0 0 1rem 0;
 }
 
 @media (max-width: 1024px) {
@@ -355,7 +355,7 @@ main p {
 }
 
 .highlight-feature .contents-inner p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: #D1D2D3;
   margin: 0;
   line-height: 1.6;
@@ -404,7 +404,7 @@ main p {
 
 .highlight-feature .contents-inner .request-btn a {
   color: #FFFFFF;
-  font-size: 1.6rem;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -461,7 +461,7 @@ main p {
 
 .overflow .contents-inner .feature-row .feature-contents .text {
   color: #ABABAD;
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 1024px) {
@@ -586,12 +586,12 @@ main p {
 }
 
 .topic .contents .date {
-  font-size: 1.6rem;
+  font-size: 1rem;
   margin: 0;
 }
 
 .topic .contents .title {
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 
 .topic .contents .title a {
@@ -738,7 +738,7 @@ main p {
     width: 100%;
     overflow: hidden;
     height: 120px;
-    margin: 1.6rem 0;
+    margin: 1rem 0;
   }
   .overflow-app-download-sp .contents-inner .feature-row .bg-card .screen-shot {
     right: 0;
@@ -891,7 +891,7 @@ main p {
 
 #contact-form-main .wrapper .button-block .btn a {
   color: #FFFFFF;
-  font-size: 1.6rem;
+  font-size: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
