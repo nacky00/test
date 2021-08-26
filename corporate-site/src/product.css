@@ -219,7 +219,7 @@ main p {
   color: #ABABAD;
   margin: 0;
   line-height: 1.6;
-  padding: 0.2rem 0;
+  padding: 0.125rem 0;
 }
 
 @media (max-width: 1024px) {
