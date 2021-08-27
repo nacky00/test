@@ -6,4 +6,8 @@ const FullPageSectionStyle = css`
     padding: 6rem 0;
 `;
 
-export { FullPageSectionStyle };
+const InnerSectionStyle = css`
+    padding: 4rem 2rem;
+`;
+
+export { FullPageSectionStyle, InnerSectionStyle };

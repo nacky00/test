@@ -6,5 +6,4 @@ export const NormalWrapperStyle = css`
     align-items: center;
     margin: 0 auto;
     max-width: 650px;
-    padding: 3rem 0;
 `
