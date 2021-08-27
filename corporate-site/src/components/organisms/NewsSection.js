@@ -62,12 +62,13 @@ const Date = styled.div`
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
     padding-right: 2rem;
-    width: 20%;
+    flex-basis: 20%;
 `
 const Summary = styled.div`
     color: ${Theme.color.grey400};
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
+    flex-basis: 100%;
 `
 
 const BottomWrapper = styled.div`
