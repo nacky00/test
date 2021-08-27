@@ -4,6 +4,7 @@ import Theme from 'theme'
 import { Link } from 'components/Router'
 import { newsData } from 'data';
 import { NormalWrapperStyle } from 'components/atoms/Wrapper/style';
+import { InnerSectionStyle } from 'components/atoms/Section/style';
 
 const outputNews = newsData.filter((output) => {
     return output.target == "all" || "company"
@@ -37,6 +38,7 @@ export const NewsSection = props => {
 }
 
 const Section = styled.section`
+    ${InnerSectionStyle};
     background-color: ${Theme.color.black};
 `
 
@@ -60,12 +62,13 @@ const Date = styled.div`
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
     padding-right: 2rem;
-    width: 20%;
+    flex-basis: 20%;
 `
 const Summary = styled.div`
     color: ${Theme.color.grey400};
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
+    flex-basis: 100%;
 `
 
 const BottomWrapper = styled.div`
