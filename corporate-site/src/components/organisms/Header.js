@@ -19,9 +19,12 @@ export default Header
 
 const Nav = styled.nav`
     background-color: ${Theme.color.black};
+    background-color: rgba(15, 15, 17, 0.72);
+    backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
     z-index: 10;
+    border-bottom: solid 1px ${Theme.color.grey900};
 `;
 
 const NavHeader = styled.div`
@@ -32,7 +35,7 @@ const NavHeader = styled.div`
 
 const NavLeft = styled.div`
     color: white;
-    margin-left: 2rem;
+    margin-left: ${Theme.space.tiny};
     img {
         width: 150px;
         height: auto;
