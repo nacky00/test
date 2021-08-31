@@ -13,6 +13,11 @@ export const NewsItem = props => {
     )
 }
 
+const media = {
+    tablet: "@media(max-width: 1024px)",
+    mobile: "@media(max-width: 599px)"
+}
+
 const ItemWrapper = styled.div`
     padding: 2rem 0;
     border-bottom: solid 1px ${Theme.color.grey900};
@@ -22,6 +27,9 @@ const ItemWrapper = styled.div`
 const Item = styled.a`
     display: flex;
     flex-direction: row;
+    ${media.mobile} {
+        flex-direction: column;
+    }
 `
 
 const Date = styled.div`
@@ -30,6 +38,9 @@ const Date = styled.div`
     letter-spacing: ${Theme.letterSpacing.mediumWide};
     padding-right: 2rem;
     flex-basis: 20%;
+    ${media.mobile} {
+        margin-bottom: 1rem;
+    }
 `
 const Summary = styled.div`
     color: ${Theme.color.grey400};
