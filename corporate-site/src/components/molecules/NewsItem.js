@@ -19,7 +19,7 @@ const media = {
 }
 
 const ItemWrapper = styled.div`
-    padding: 2rem 0;
+    padding: ${Theme.space.tiny} 0;
     border-bottom: solid 1px ${Theme.color.grey900};
     width: 100%;
 `
@@ -36,10 +36,10 @@ const Date = styled.div`
     color: ${Theme.color.grey700};
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
-    padding-right: 2rem;
+    padding-right: ${Theme.space.tiny};
     flex-basis: 20%;
     ${media.mobile} {
-        margin-bottom: 1rem;
+        margin-bottom: ${Theme.space.micro};
     }
 `
 const Summary = styled.div`

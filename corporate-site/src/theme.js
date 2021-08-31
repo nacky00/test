@@ -27,7 +27,8 @@ const Theme = {
         large: "12rem",
         medium: "6rem",
         small: "4rem",
-        tiny: "2rem"
+        tiny: "2rem",
+        micro: "0.5rem"
     }
 }
 
