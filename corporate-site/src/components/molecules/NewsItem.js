@@ -14,7 +14,7 @@ export const NewsItem = props => {
 }
 
 const ItemWrapper = styled.div`
-    padding: 2rem 0;
+    padding: ${Theme.space.tiny} 0;
     border-bottom: solid 1px ${Theme.color.grey900};
     width: 100%;
 `
@@ -22,18 +22,24 @@ const ItemWrapper = styled.div`
 const Item = styled.a`
     display: flex;
     flex-direction: row;
+    ${Theme.mediaQuery.mobile} {
+        flex-direction: column;
+    }
 `
 
 const Date = styled.div`
     color: ${Theme.color.grey700};
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
-    padding-right: 2rem;
+    padding-right: ${Theme.space.tiny};
     flex-basis: 20%;
+    ${Theme.mediaQuery.mobile} {
+        margin-bottom: ${Theme.space.micro};
+    }
 `
 const Summary = styled.div`
     color: ${Theme.color.grey400};
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
-    flex-basis: 100%;
+    flex-basis: 80%;
 `
