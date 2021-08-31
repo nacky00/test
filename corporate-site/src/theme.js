@@ -29,6 +29,9 @@ const Theme = {
         small: "4rem",
         tiny: "2rem",
         micro: "0.5rem"
+    },
+    mediaQuery: {
+        mobile: "@media(max-width: 599px)"
     }
 }
 
