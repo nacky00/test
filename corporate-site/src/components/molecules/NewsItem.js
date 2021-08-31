@@ -35,5 +35,5 @@ const Summary = styled.div`
     color: ${Theme.color.grey400};
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
-    flex-basis: 100%;
+    flex-basis: 80%;
 `

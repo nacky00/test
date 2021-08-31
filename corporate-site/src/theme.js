@@ -21,6 +21,13 @@ const Theme = {
     },
     letterSpacing: {
         mediumWide: "1.5px"
+    },
+    space: {
+        xlarge: "24rem",
+        large: "12rem",
+        medium: "6rem",
+        small: "4rem",
+        tiny: "2rem"
     }
 }
 
