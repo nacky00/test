@@ -103,7 +103,11 @@ export default function PricavyPolicy() {
                 </FirstContainer>
                 <FirstContainer>
                     <Header>第7条(お問い合わせ窓口)</Header>
-                    <Text>ご意見、ご質問、苦情のお申出その他利用者情報の取扱いに関するお問い合わせは、下記の窓口までお願いいたします。 住所：東京都国分寺市戸倉3丁目30番11号会社名：株式会社RelyonTrip個人情報取扱責任者：西村 彰仁連絡先：sassy_support@relyontrip.com</Text>
+                    <Text>ご意見、ご質問、苦情のお申出その他利用者情報の取扱いに関するお問い合わせは、下記の窓口までお願いいたします。 </Text>
+                    <Text>住所：東京都国分寺市戸倉3丁目30番11号</Text>
+                    <Text>会社名：株式会社RelyonTrip</Text>
+                    <Text>個人情報取扱責任者：西村 彰仁</Text>
+                    <Text>連絡先：sassy_support@relyontrip.com</Text>
                     </FirstContainer>
                 <FirstContainer>
                     <Header>第8条(プライバシーポリシーの変更手続)</Header>
