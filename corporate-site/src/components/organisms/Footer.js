@@ -76,7 +76,7 @@ const Block = styled.div`
 `
 
 const Element = styled.div`
-    margin-bottom: 1rem;
+    margin-bottom: ${Theme.space.micro};
     a {
         color: ${Theme.color.white};
         font-size: ${Theme.font.medium};
