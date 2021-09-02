@@ -1,16 +1,15 @@
 import React from 'react'
 import { Link } from 'components/Router'
-
 import styled from 'styled-components'
 import Theme from 'theme'
-
-
+import { InnerSectionStyle } from 'components/atoms/Section/style';
+import { NormalWrapperStyle } from 'components/atoms/Wrapper/style';
 
 class Footer extends React.Component {
     render() {
             return(
-                <Wrapper>
-                    <Container>
+                <Section>
+                    <Wrapper>
                         <Title>RelyonTrip</Title>
                         <Contents>
                             <Block>
@@ -35,39 +34,45 @@ class Footer extends React.Component {
                                 <Icon href="https://www.facebook.com/akihito.nishimura.9" target="_blank"><img src="/img/icon-facebook.png"/></Icon>
                             </div>
                         </Bottom>
-                    </Container>
-                </Wrapper>
+                    </Wrapper>
+                </Section>
             );
     }
 }
 
 export default Footer
 
-const Wrapper = styled.div`
+const Section = styled.section`
+    ${InnerSectionStyle};
     background-color: ${Theme.color.black};
-    padding: 1.6rem;
 `;
 
-const Container = styled.div`
-    padding: 2rem 0;
-    max-width: 800px;
-    margin: 0 auto;
+const Wrapper = styled.div`
+    ${NormalWrapperStyle};
+    align-items: normal;
 `
 
 const Title = styled.h1`
     font-size: ${Theme.font.large};
     color: ${Theme.color.white};
-    margin-bottom: 2rem;
 `
 
 const Contents = styled.div`
     display: flex;
+    padding-top: ${Theme.space.tiny};
+    padding-bottom: ${Theme.space.tiny};
+    ${Theme.mediaQuery.mobile} {
+        flex-direction: column;
+    }
 `
 
 const Block = styled.div`
     display: flex;
     flex-direction: column;
     width: 50%;
+    ${Theme.mediaQuery.mobile} {
+        width: 100%;
+    }
 `
 
 const Element = styled.div`
@@ -82,6 +87,7 @@ const Element = styled.div`
 const Bottom = styled.div`
     display: flex;
     justify-content: space-between;
+    align-items: center;
     p {
         font-size: ${Theme.font.medium};
         color: ${Theme.color.white};
