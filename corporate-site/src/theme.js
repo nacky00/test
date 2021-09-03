@@ -31,7 +31,8 @@ const Theme = {
         micro: "1rem"
     },
     mediaQuery: {
-        mobile: "@media(max-width: 599px)"
+        mobile: "@media(max-width: 960px)",
+        desktop: "@media(min-width: 961px)"
     }
 }
 

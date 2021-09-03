@@ -52,10 +52,11 @@ const Container = styled.div`
             margin-bottom: ${Theme.space.tiny};
         }
     }
-    div:first-child {
-        margin-right: ${Theme.space.medium};
+    ${Theme.mediaQuery.desktop} {
+        div:first-child {
+            margin-right: ${Theme.space.medium};
+        }
     }
-    
 `
 
 const StoreButtonsContainer = styled.div`
