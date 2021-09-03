@@ -10,7 +10,7 @@ class Footer extends React.Component {
             return(
                 <Section>
                     <Wrapper>
-                        <Title>RelyonTrip</Title>
+                        <Header><Link to="/"><img src="/img/corporate-logo.png" /></Link></Header>
                         <Contents>
                             <Block>
                                 <Element><Link to="/sassy">おでかけアプリ「Sassy」</Link></Element>
@@ -52,9 +52,11 @@ const Wrapper = styled.div`
     align-items: normal;
 `
 
-const Title = styled.h1`
-    font-size: ${Theme.font.large};
-    color: ${Theme.color.white};
+const Header = styled.div`
+    img {
+        width: 120px;
+        height: auto;
+    }
 `
 
 const Contents = styled.div`
