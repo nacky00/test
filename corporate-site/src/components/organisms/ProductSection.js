@@ -16,15 +16,15 @@ export const ProductSection = props => {
                 <Item>
                     <img src="/img/thumbnail-caviia.png" />
                     <StoreButtonsContainer>
-                        <AppleButton/>
-                        <GooglePlayButton/>
+                        <AppleButton href={`https://apps.apple.com/us/app/caviia/id1546375547`}/>
+                        <GooglePlayButton href={`https://play.google.com/store`}/>
                     </StoreButtonsContainer>
                 </Item>
                 <Item>
                     <img src="/img/thumbnail-sassy.png" />
                     <StoreButtonsContainer>
-                        <AppleButton/>
-                        <GooglePlayButton/>
+                        <AppleButton href={`https://apps.apple.com/jp/app/id1496112424`}/>
+                        <GooglePlayButton href={`https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob`}/>
                     </StoreButtonsContainer>
                 </Item>
             </Container>
