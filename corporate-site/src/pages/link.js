@@ -19,11 +19,11 @@ export default function Terms() {
                         <AppIcon src="/img/app-logo.png" alt="Sassyアプリロゴ" />
                     </SubContainer>
                     <SubContainer>
-                        <PrimaryButton><Link to="/">アプリ詳細はこちら</Link></PrimaryButton>
+                        <PrimaryButton><Link to="/sassy">アプリ詳細はこちら</Link></PrimaryButton>
                     </SubContainer>
                     <StoreButtonsSubContainer>
-                        <AppleButton/>
-                        <GooglePlayButton/>    
+                        <AppleButton href={`https://apps.apple.com/jp/app/id1496112424`}/>
+                        <GooglePlayButton href={`https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob`}/>
                     </StoreButtonsSubContainer>
                 </Container>
                 <Header style={{ marginBottom: "1rem" }}>関連リンク集</Header>
