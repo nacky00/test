@@ -23,7 +23,7 @@ export const ProductSection = props => {
                     </StoreButtonsContainer>
                 </Item>
                 <Item>
-                    <Image><img src="/img/thumbnail-caviia.png" /><Link to="https://caviia.com" /></Image>
+                    <Image><img src="/img/thumbnail-caviia.png" /><Link to="" /></Image>
                     <StoreButtonsContainer>
                         <AppleButton />
                         <GooglePlayButton />
