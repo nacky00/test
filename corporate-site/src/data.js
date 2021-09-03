@@ -162,9 +162,9 @@ export const newsData = [
     },
     {
         date: "2021/07/29",
-        title: "テレビ東京「田村淳が池袋 Innovation Council」に当社代表の西村が出演",
-        category: "プレスリリース",
-        url: "https://www.youtube.com/watch?v=uF1V4EnuBGs",
+        title: "テレビ東京「田村淳が池袋 Innovation Council」に当社代表の西村が出演しました",
+        category: "トピック",
+        url: "https://twitter.com/tx_ikebukuro?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         target: "company"
     }, 
     {
@@ -172,6 +172,20 @@ export const newsData = [
         title: "【自治体との取組は３ヶ月連続！】スポット直感型アプリ『Sassy』が、三重県、富山県、山梨県、長野県、岐阜県および群馬県における観光コンテンツの作成・配信を開始",
         category: "プレスリリース",
         url: "https://prtimes.jp/main/html/rd/p/000000017.000051474.html",
+        target: "all"
+    },
+    {
+        date: "2021/08/26",
+        title: "テレビ東京「田村淳が池袋 Innovation Council」に当社代表の西村が出演しました",
+        category: "トピック",
+        url: "https://twitter.com/tx_ikebukuro?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        target: "company"
+    },
+    {
+        date: "2021/08/31",
+        title: "【スポット掲載数32,000件突破】スポット直感型アプリ『Sassy』が、札幌市・仙台市・金沢市・名古屋市における観光コンテンツの作成・配信を開始",
+        category: "プレスリリース",
+        url: "https://prtimes.jp/main/html/rd/p/000000018.000051474.html",
         target: "all"
     },
 ]
