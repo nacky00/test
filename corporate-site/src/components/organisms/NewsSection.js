@@ -6,6 +6,7 @@ import { newsData } from 'data';
 import { NormalWrapperStyle } from 'components/atoms/Wrapper/style';
 import { InnerSectionStyle } from 'components/atoms/Section/style';
 import { NewsItem } from 'components/molecules/NewsItem';
+import { SectionHeader } from 'components/atoms/Text/style'
 
 const outputNews = newsData.filter((output) => {
     return output.target == "all" || "company"
@@ -15,12 +16,12 @@ export const NewsSection = props => {
     return (
         <Section>
             <Wrapper>
-            <h1 style={{ color: "white" }}>News</h1>
-            {outputNews.reverse().slice(0,4).map((body,key) => {
-                return(
-                    <NewsItem body={body} key={key}/>
-                )
-            })}
+                <Header>News</Header>
+                {outputNews.reverse().slice(0,4).map((body,key) => {
+                    return(
+                        <NewsItem body={body} key={key}/>
+                    )
+                })}
                 <BottomWrapper>
                     <MoreButton>
                         <Link to="/news">
@@ -40,6 +41,12 @@ const Section = styled.section`
 
 const Wrapper = styled.div`
     ${NormalWrapperStyle}
+`
+
+const Header = styled.h1`
+    ${SectionHeader};
+    color: ${Theme.color.grey400};
+    margin-bottom: ${Theme.space.micro};
 `
 
 const BottomWrapper = styled.div`
