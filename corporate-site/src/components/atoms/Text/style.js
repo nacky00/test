@@ -20,6 +20,13 @@ const ElementSubHeader = css`
     color: ${Theme.color.grey400};
 `
 
+const SectionHeader = css`
+    font-family: "Gill Sans";
+    font-size: ${Theme.font.xxlarge};
+    font-weight: ${Theme.weight.medium};
+    letter-spacing: 0.1rem;
+`
+
 // Body Text
 const NormalText = css`
     font-size: ${Theme.font.normal};
@@ -42,4 +49,4 @@ const NormalUl = css`
     color: ${Theme.color.grey400};
 `
 
-export { PageMainTitle, ElementHeader, ElementSubHeader, NormalText, NormalLi, NormalOl, NormalUl };
+export { PageMainTitle, ElementHeader, ElementSubHeader, SectionHeader, NormalText, NormalLi, NormalOl, NormalUl };

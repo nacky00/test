@@ -9,6 +9,7 @@ const Theme = {
         goldDark: "#302814"
     },
     font: {
+        xxlarge: "2.5rem", // 16px * 2.5 = 40px
         xlarge: "2rem", // 16px * 2 = 24px
         large: "1.25rem", // 16px * 1.25 = 20px
         medium: "1rem", // 16px * 1 = 16px
@@ -17,6 +18,7 @@ const Theme = {
     },
     weight: {
         bold: 700,
+        medium: 600,
         normal: 400
     },
     letterSpacing: {
@@ -31,7 +33,8 @@ const Theme = {
         micro: "1rem"
     },
     mediaQuery: {
-        mobile: "@media(max-width: 599px)"
+        mobile: "@media(max-width: 960px)",
+        desktop: "@media(min-width: 961px)"
     }
 }
 
