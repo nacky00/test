@@ -30,7 +30,8 @@ const Theme = {
         medium: "6rem",
         small: "4rem",
         tiny: "2rem",
-        micro: "1rem"
+        micro: "1rem",
+        nano: "0.5rem",
     },
     mediaQuery: {
         mobile: "@media(max-width: 960px)",
