@@ -16,17 +16,17 @@ export const ProductSection = props => {
             <Text>観光・飲食系アプリ『 Sassy (サッシー) 』と<br />『 Caviia (キャビア) 』を開発しています。</Text>
             <Container>
                 <Item>
-                    <Image><img src="/img/thumbnail-caviia.png" /><Link to="https://caviia.com" /></Image>
-                    <StoreButtonsContainer>
-                        <AppleButton href={`https://apps.apple.com/us/app/caviia/id1546375547`}/>
-                        <GooglePlayButton href={`https://play.google.com/store`}/>
-                    </StoreButtonsContainer>
-                </Item>
-                <Item>
                 <Image><img src="/img/thumbnail-sassy.png" /><Link to="/sassy" /></Image>
                     <StoreButtonsContainer>
                         <AppleButton href={`https://apps.apple.com/jp/app/id1496112424`}/>
                         <GooglePlayButton href={`https://play.google.com/store/apps/details?id=com.relyontrip.sassy&referrer=utm_source%3Dsassy-lp%26anid%3Dadmob`}/>
+                    </StoreButtonsContainer>
+                </Item>
+                <Item>
+                    <Image><img src="/img/thumbnail-caviia.png" /><Link to="https://caviia.com" /></Image>
+                    <StoreButtonsContainer>
+                        <AppleButton />
+                        <GooglePlayButton />
                     </StoreButtonsContainer>
                 </Item>
             </Container>
