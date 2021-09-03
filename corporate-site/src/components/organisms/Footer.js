@@ -13,7 +13,7 @@ class Footer extends React.Component {
                         <Header><Link to="/"><img src="/img/corporate-logo.png" /></Link></Header>
                         <Contents>
                             <Block>
-                                <Element><Link to="/sassy">おでかけアプリ「Sassy」</Link></Element>
+                                <Element><Link to="/sassy">スポット直感型アプリ「Sassy」</Link></Element>
                                 <Element><Link to="/">人生No.1飲食店SNS「Caviia」</Link></Element>
                                 <Element><Link to="/link">関連リンク集</Link></Element>
                             </Block>
