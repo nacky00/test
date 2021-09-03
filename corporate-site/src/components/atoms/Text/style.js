@@ -22,9 +22,9 @@ const ElementSubHeader = css`
 
 const SectionHeader = css`
     font-family: "Gill Sans";
-    font-size: ${Theme.font.xxlarge};
+    font-size: ${Theme.font.xlarge};
     font-weight: ${Theme.weight.medium};
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
 `
 
 // Body Text

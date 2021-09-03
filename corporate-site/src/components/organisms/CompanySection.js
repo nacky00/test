@@ -2,21 +2,23 @@ import React from 'react'
 import styled from 'styled-components'
 import Theme from 'theme'
 import { NormalWrapperStyle } from 'components/atoms/Wrapper/style'
+import { InnerSectionStyle } from 'components/atoms/Section/style'
+import { SectionHeader } from 'components/atoms/Text/style'
 
 export const CompanySection = props => {
     return (
         <Section>
             <Wrapper>
-                <Element style={{ marginBottom: "3rem" }}>
-                    <Title>Mission</Title>
+                <Element>
+                    <Header>Mission</Header>
                     <Message>人と人がもっとつながれる世界をつくる</Message>
                 </Element>
-                <Element style={{ marginBottom: "6rem" }}>
-                    <Title>Vision</Title>
-                    <Message>つながりの中のわずらわしさをITで解決する</Message>
+                <Element>
+                    <Header>Vision</Header>
+                    <Message>つながりの中のわずらわしさを<br />ITで解決する</Message>
                 </Element>
                 <Element>
-                    <Title>Company</Title>
+                    <Header>Company</Header>
                     <Row>
                         <Heading>会社名</Heading>
                         <Body>株式会社RelyonTrip（リリオントリップ）</Body>
@@ -44,19 +46,18 @@ export const CompanySection = props => {
 }
 
 const Section = styled.section`
+    ${InnerSectionStyle}
     background-color: ${Theme.color.black};
-    padding: 3rem 0;
 `
 
 const Wrapper = styled.div`
     ${NormalWrapperStyle};
 `
 
-const Title = styled.div`
-    font-size: ${Theme.font.xlarge};
-    font-weight: ${Theme.weight.bold};
+const Header = styled.h1`
+    ${SectionHeader};
     color: ${Theme.color.grey400};
-    margin-bottom: 1rem;
+    margin-bottom: ${Theme.space.micro};
 `
 
 const Message = styled.div`
@@ -64,10 +65,17 @@ const Message = styled.div`
     font-size: ${Theme.font.large};
     font-weight: ${Theme.weight.normal};
     letter-spacing: ${Theme.letterSpacing.mediumWide};
+    text-align: center;
+    br {
+        display: none;
+        ${Theme.mediaQuery.mobile} {
+            display: inline;
+        }
+    }
 `
 
 const Element = styled.div`
-    margin-bottom: 2rem;
+    margin-bottom: ${Theme.space.small};
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,5 +98,5 @@ const Body = styled.div`
 const Row = styled.div`
     display: flex;
     width: 100%;
-    padding: 0.8rem 0;
+    padding: ${Theme.space.micro} 0;
 `
