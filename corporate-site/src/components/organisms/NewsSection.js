@@ -25,7 +25,7 @@ export const NewsSection = props => {
                 <BottomWrapper>
                     <MoreButton>
                         <Link to="/news">
-                            <p>View All</p><p>→</p>
+                            <p>View All</p><img src="/img/icon-arrow-right.png" />
                         </Link>
                     </MoreButton>
                 </BottomWrapper>
@@ -64,5 +64,13 @@ a {
     border-bottom: solid 1px ${Theme.color.white};
     p {
         color: ${Theme.color.white};
+        font-family: "Gill Sans";
+        letter-spacing: 0.1rem;
+        font-size: ${Theme.font.large};
+        font-weight: ${Theme.weight.normal};
+        margin-right: ${Theme.space.micro};
+    }
+    img {
+        width: 1.2rem;
     }
 }`
