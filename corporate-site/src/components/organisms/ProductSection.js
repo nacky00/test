@@ -6,13 +6,14 @@ import { AppleButton } from 'components/atoms/AppleButton'
 import { GooglePlayButton } from 'components/atoms/GooglePlayButton'
 import { NormalWrapperStyle } from 'components/atoms/Wrapper/style'
 import { InnerSectionStyle  } from 'components/atoms/Section/style'
+import { SectionHeader } from 'components/atoms/Text/style'
 
 export const ProductSection = props => {
     return (
         <Section>
             <Wrapper>
-            <h1>Product</h1>
-            <p>観光・飲食系アプリ『Sassy (サッシー)』と『Caviia (キャビア)』を開発しています。</p>
+            <Header>Product</Header>
+            <Text>観光・飲食系アプリ『 Sassy (サッシー) 』と『 Caviia (キャビア) 』を開発しています。</Text>
             <Container>
                 <Item>
                     <Image><img src="/img/thumbnail-caviia.png" /><Link to="https://caviia.com" /></Image>
@@ -43,14 +44,26 @@ const Wrapper = styled.div`
     ${NormalWrapperStyle}
 `
 
+const Header = styled.h1`
+    ${SectionHeader};
+    color: ${Theme.color.grey900};
+    margin-bottom: ${Theme.space.micro};
+`
+
+const Text = styled.p`
+    color: ${Theme.color.gre900};
+    margin: 0;
+`
+
 const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: ${Theme.space.small} 0;
     ${Theme.mediaQuery.mobile} {
         flex-direction: column;
         >div:first-child {
-            padding-bottom: ${Theme.space.tiny};
+            padding-bottom: ${Theme.space.small};
         }
     }
     ${Theme.mediaQuery.desktop} {
@@ -70,11 +83,15 @@ const Item = styled.div`
     flex-direction: column;
     align-items: center;
     width: 50%;
+    ${Theme.mediaQuery.mobile} {
+        width: 100%;
+    }
 `
 
 const Image = styled.div`
     position: relative;
     width: 100%;
+    margin-bottom: ${Theme.space.micro};
     img {
         width: 100%;
     }
