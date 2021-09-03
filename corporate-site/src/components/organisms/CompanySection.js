@@ -37,7 +37,7 @@ export const CompanySection = props => {
                     </Row>
                     <Row>
                         <Heading>事業内容</Heading>
-                        <Body>おでかけアプリ「Sassy」、人生No.1飲食店SNS「Caviia」の企画・開発・運営、マイクロツーリズムの企画・コンサルティング 等</Body>
+                        <Body>スポット直感型アプリ「Sassy」、人生No.1飲食店SNS「Caviia」の企画・開発・運営、マイクロツーリズムの企画・コンサルティング 等</Body>
                     </Row>
                 </Element>
             </Wrapper>
