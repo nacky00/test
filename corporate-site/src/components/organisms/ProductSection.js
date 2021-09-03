@@ -13,7 +13,7 @@ export const ProductSection = props => {
         <Section>
             <Wrapper>
             <Header>Product</Header>
-            <Text>観光・飲食系アプリ『 Sassy (サッシー) 』と『 Caviia (キャビア) 』を開発しています。</Text>
+            <Text>観光・飲食系アプリ『 Sassy (サッシー) 』と<br />『 Caviia (キャビア) 』を開発しています。</Text>
             <Container>
                 <Item>
                     <Image><img src="/img/thumbnail-caviia.png" /><Link to="https://caviia.com" /></Image>
@@ -53,6 +53,13 @@ const Header = styled.h1`
 const Text = styled.p`
     color: ${Theme.color.gre900};
     margin: 0;
+    text-align: center;
+    br {
+        display: none;
+        ${Theme.mediaQuery.mobile} {
+            display: inline;
+        }
+    }
 `
 
 const Container = styled.div`
