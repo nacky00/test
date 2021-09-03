@@ -123,6 +123,12 @@ export default function Sassy() {
             <section className="topic">
                 <h2>Topic</h2>
                 <div className="contents">
+                    <a href="https://prtimes.jp/main/html/rd/p/000000018.000051474.html" target="_blank">
+                        <p className="date">2021-08-31</p>
+                        <p className="title">【スポット掲載数32,000件突破】スポット直感型アプリ『Sassy』が、札幌市・仙台市・金沢市・名古屋市における観光コンテンツの作成・配信を開始</p>
+                    </a>
+                </div>
+                <div className="contents">
                     <a href="https://prtimes.jp/main/html/rd/p/000000017.000051474.html" target="_blank">
                         <p className="date">2021-07-31</p>
                         <p className="title">【自治体との取組は３ヶ月連続！】スポット直感型アプリ『Sassy』が、三重県、富山県、山梨県、長野県、岐阜県および群馬県における観光コンテンツの作成・配信を開始</p>
