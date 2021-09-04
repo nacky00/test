@@ -9,24 +9,26 @@ import { ContactSection } from 'components/organisms/ContactSection'
 export default () => (
   <div>
     <MainVisual>
-      <MainTitle>
-        <h1>Something Message</h1>
-        <p>message message message</p>
-      </MainTitle>
       <MainMovie autoPlay="true" loop="true" muted="true" playsInline>
-        <source src="/sample_movie.mp4" type="video/mp4"/>
+        <source src="/movie/top.mp4" type="video/mp4"/>
       </MainMovie>
     </MainVisual>
     
-    <div className="contents" style={{ backgroundColor: "beige", marginTop: "32%" }}>
+    <Contents>
         <ProductSection />
         <NewsSection />
         <CompanySection />
         <ContactSection />
-      </div>
+      </Contents>
   </div>
 )
 
+const Contents = styled.div`
+  margin-top: 32%;
+  ${Theme.mediaQuery.mobile} {
+    margin-top: 40%;
+  }
+`
 
 const MainVisual = styled.div`
     position: fixed;
