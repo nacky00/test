@@ -35,9 +35,18 @@ const NavHeader = styled.div`
 
 const NavLeft = styled.div`
     color: white;
-    margin-left: ${Theme.space.tiny};
+    margin-left: ${Theme.space.small};
+    ${Theme.mediaQuery.mobile} {
+        margin-left: ${Theme.space.tiny};
+    }
+    a {
+        padding: ${Theme.space.micro} 0;
+    }
     img {
         width: 150px;
         height: auto;
+        ${Theme.mediaQuery.mobile} {
+            width: 90px;
+        }
     }
 `
