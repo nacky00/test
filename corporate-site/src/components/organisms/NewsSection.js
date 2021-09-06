@@ -17,7 +17,7 @@ export const NewsSection = props => {
         <Section>
             <Wrapper>
                 <Header>News</Header>
-                {outputNews.reverse().slice(0,4).map((body,key) => {
+                {outputNews.slice(0,4).map((body,key) => {
                     return(
                         <NewsItem body={body} key={key}/>
                     )
