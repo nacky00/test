@@ -1,14 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
-import Theme from 'theme'
 import { NormalWrapperStyle } from 'components/atoms/Wrapper/style'
 import { FullPageSectionStyle } from 'components/atoms/Section/style'
 import { PageMainTitle, ElementHeader, NormalText, NormalLi, NormalOl } from 'components/atoms/Text/style'
 import { NormalContainer, SubContainer } from 'components/atoms/Container/style'
+import Meta from 'meta'
 
 export default function Terms() {
     return (
         <Section>
+            <Meta title={`利用規約`} description={`株式会社RelyonTripの利用規約`} url={`https://relyontrip.com/terms`}/>
             <Wrapper>
                 <Title>利用規約</Title>
                 <Text>

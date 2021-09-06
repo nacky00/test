@@ -5,10 +5,12 @@ import { NarrowWrapperStyle } from 'components/atoms/Wrapper/style'
 import { FullPageSectionStyle } from 'components/atoms/Section/style'
 import { PageMainTitle, NormalText } from 'components/atoms/Text/style'
 import { NormalContainer } from 'components/atoms/Container/style'
+import Meta from 'meta'
 
 export default function Terms() {
     return (
         <Section>
+            <Meta title={`掲載情報の著作権について`} description={`RelyonTrip 掲載情報の著作権について`} url={`https://relyontrip.com/copyright`}/>
             <Wrapper>
                 <Title>掲載情報の著作権について</Title>
                 <Text>

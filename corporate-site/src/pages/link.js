@@ -7,10 +7,12 @@ import { FullPageSectionStyle } from 'components/atoms/Section/style'
 import { PageMainTitle, ElementHeader, NormalText } from 'components/atoms/Text/style'
 import { AppleButton } from 'components/atoms/AppleButton'
 import { GooglePlayButton } from 'components/atoms/GooglePlayButton'
+import Meta from 'meta'
 
 export default function Terms() {
     return (
         <Section>
+            <Meta title={`リンク一覧`} description={`スポット直感型アプリ Sassy(サッシー)のリンク一覧です。`} url={`https://relyontrip.com/link`}/>
             <Wrapper>
                 <Container>
                     <Text>スポット直感型アプリ</Text>

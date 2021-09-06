@@ -5,9 +5,11 @@ import { NewsSection } from 'components/organisms/NewsSection'
 import { ProductSection } from 'components/organisms/ProductSection'
 import { CompanySection } from 'components/organisms/CompanySection'
 import { ContactSection } from 'components/organisms/ContactSection'
+import Meta from 'meta'
 
 export default () => (
   <div>
+    <Meta description={`株式会社RelyonTrip（リリオントリップ）のコーポレートサイトです。`} url={`https://relyontrip.com`}/>
     <MainVisual>
       <MainMovie autoPlay="true" loop="true" muted="true" playsInline>
         <source src="/movie/top.mp4" type="video/mp4"/>
