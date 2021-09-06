@@ -25,7 +25,7 @@ export default () => (
 )
 
 const Contents = styled.div`
-  margin-top: 32%;
+  margin-top: 38%;
   ${Theme.mediaQuery.mobile} {
     margin-top: 56%;
   }
