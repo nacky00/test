@@ -4,6 +4,7 @@ import Theme from 'theme'
 import { newsData } from 'data';
 import { NormalWrapperStyle } from 'components/atoms/Wrapper/style'
 import { FullPageSectionStyle  } from 'components/atoms/Section/style'
+import { PageMainTitle } from 'components/atoms/Text/style'
 import { NewsItem } from 'components/molecules/NewsItem';
 
 const outputNews = newsData.filter((output) => {
@@ -15,8 +16,8 @@ export default function News() {
     return (
         <Section>
             <Wrapper>
-                <h1 style={{ color: "white" }}>お知らせ</h1>
-                {outputNews.reverse().map((body,key) => {
+                <Title>お知らせ</Title>
+                {outputNews.map((body,key) => {
                     return(
                         <NewsItem body={body} key={key}/>
                     )
@@ -33,4 +34,7 @@ const Section = styled.section`
 
 const Wrapper = styled.div`
     ${NormalWrapperStyle};
+`
+const Title = styled.div`
+    ${PageMainTitle};
 `
