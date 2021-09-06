@@ -1,9 +1,15 @@
 import React from 'react';
 import "../product.css";
+import Meta from 'meta'
 
 export default function Sassy() {
     return (
         <main>
+            <Meta
+                title={`Sassy(サッシー) スポット直感型アプリ`}
+                description={`スワイプで「行きたい」を発見。Sassyは、みんなの｢とっておき｣スポットが簡単に、便利に探せるアプリ。そして、今までのおでかけ探しの｢メンドクサイ｣部分を解決します。映えスポット探し、口コミが調べ、経路とアクセスの確認…。これまでの色々なツールの往復を、Sassyは１つにまとめました。カフェのはしご、駅チカのお店探し、ランチとショッピングの組み合わせ。Sassyで、おでかけスポット探しをもっとカンタンに、もっと楽しくしましょう！`}
+                url={`https://relyontrip.com/sassy`}
+            />
             <section>
                 <div className="hero-area-wrapper">
                     <div className="hero-area-concept-message pc">
