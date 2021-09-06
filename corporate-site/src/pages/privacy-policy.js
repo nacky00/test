@@ -4,10 +4,12 @@ import { NormalWrapperStyle } from 'components/atoms/Wrapper/style'
 import { FullPageSectionStyle  } from 'components/atoms/Section/style'
 import { PageMainTitle, ElementHeader, ElementSubHeader, NormalText, NormalLi, NormalOl, NormalUl } from 'components/atoms/Text/style'
 import { NormalContainer, SubContainer } from 'components/atoms/Container/style'
+import Meta from 'meta'
 
 export default function PricavyPolicy() {
     return (
         <Section>
+            <Meta title={`プライバシーポリシー`} description={`株式会社RelyonTripのプライバシーポリシー`} url={`https://relyontrip.com/privacy-policy`}/>
             <Wrapper>
                 <Title>プライバシーポリシー</Title>
                 <Text>株式会社RelyonTrip（以下「当社」といいます。）は、当社の提供するサービス（以下「本サービス」といいます。）における、お客様についての個人情報を含む利用者情報の取扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」といいます。）を定めます。</Text>
