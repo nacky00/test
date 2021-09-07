@@ -64,7 +64,7 @@ a {
     border-bottom: solid 1px ${Theme.color.white};
     p {
         color: ${Theme.color.white};
-        font-family: "Gill Sans";
+        font-family: 'Hiragino Mincho Pro';
         letter-spacing: 0.1rem;
         font-size: ${Theme.font.large};
         font-weight: ${Theme.weight.normal};

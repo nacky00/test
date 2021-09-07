@@ -18,7 +18,7 @@ export default function News() {
         <Section>
             <Meta title={`お知らせ`} description={`株式会社RelyonTripのお知らせ一覧`} url={`https://relyontrip.com/news`}/>
             <Wrapper>
-                <Title>お知らせ</Title>
+                <Title>News</Title>
                 {outputNews.map((body,key) => {
                     return(
                         <NewsItem body={body} key={key}/>

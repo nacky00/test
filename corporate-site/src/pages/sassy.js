@@ -81,7 +81,7 @@ export default function Sassy() {
                         <p>まとめ集では、数々のワクワクするテーマをご用意。</p>
                         <p>また、「こんなテーマが知りたい！」というリクエストも大募集中です。お気軽に下記フォームからお問い合わせください。</p>
                     </div>
-                    <button className="request-btn"><a href="/sassy/contact.html" target="_blank" onclick="ga('send','event','btn-to-contact','click','in-sassy-index', 1)">お問い合わせフォーム</a></button>
+                    <button className="request-btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0hMiTOxYSTDbsYl3uevU_f9uhFxnL4-9d2uXbQPAmSNo8zQ/viewform" target="_blank" onclick="ga('send','event','btn-to-contact','click','in-sassy-index', 1)">お問い合わせフォーム</a></button>
                 </div>
             </section>
             <section className="overflow">
