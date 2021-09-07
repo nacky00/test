@@ -52,6 +52,7 @@ export default function Terms() {
 const Section = styled.section`
     ${FullPageSectionStyle};
     background-color: ${Theme.color.grey900};
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", serif;
 `
 const Wrapper = styled.div`
     ${NormalWrapperStyle};
