@@ -41,6 +41,7 @@ const Button = styled.button`
         color: ${Theme.color.white};
         font-size: ${Theme.font.large};
         font-weight: ${Theme.weight.normal};
+        font-family: 'Hiragino Mincho Pro';
         ${Theme.mediaQuery.mobile} {
             padding: ${Theme.space.tiny} ${Theme.space.tiny};
         }

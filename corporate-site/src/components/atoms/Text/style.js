@@ -21,10 +21,10 @@ const ElementSubHeader = css`
 `
 
 const SectionHeader = css`
-    font-family: "Gill Sans";
+    font-family: 'Hiragino Mincho Pro';
     font-size: ${Theme.font.xlarge};
     font-weight: ${Theme.weight.medium};
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.15rem;
 `
 
 // Body Text
