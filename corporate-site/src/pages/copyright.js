@@ -36,7 +36,7 @@ export default function Terms() {
                     <Text>仙台市</Text>
                 </Container>
                 <Container>
-                    <Text>クリエイティブ・コモンズ・ライセンス 表示 4.0 国際</Text>
+                    <Text>クリエイティブ・コモンズ・ライセンス 表示4.0国際</Text>
                     <Text>（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">https://creativecommons.org/licenses/by/4.0/deed.ja</a>）</Text>
                 </Container>
             </Wrapper>
