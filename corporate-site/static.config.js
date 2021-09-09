@@ -12,7 +12,7 @@ export default {
     assets: 'dist', // The output directory for bundled JS and CSS
     buildArtifacts: 'artifacts', // The output directory for generated (internal) resources
   },
-  siteRoot: 'https://relyontrip.com',
+  siteRoot: 'http://zen-heisenberg-1912da.netlify.app',
   plugins: [
     [
       require.resolve('react-static-plugin-source-filesystem'),
