@@ -5,7 +5,7 @@ import { Head } from 'react-static'
 
 const Meta = (props) => (
     <Head>
-        <title>{props.title ? `${props.title} - ` : ""}RelyonTrip</title>
+        <title>{props.title ? `${props.title} - ` : ""}Relyon Trip</title>
 
         <meta itemProp="name" content={props.title ? props.title : "RelyonTrip"}/>
         <meta itemProp="description" content={props.description ? props.description : "株式会社RelyonTrip(リリオントリップ)のコーポレートサイトです。"}/>
