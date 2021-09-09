@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "prettier": "^2.3.2"
-  },
-  "dependencies": {
-    "styled-components": "^5.3.1"
-  }
-}
