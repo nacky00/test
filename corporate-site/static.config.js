@@ -2,7 +2,7 @@ import path from 'path'
 import axios from 'axios'
 
 export default {
-  siteRoot: 'http://zen-heisenberg-1912da.netlify.app',
+  siteRoot: 'https://zen-heisenberg-1912da.netlify.app',
   plugins: [
     [
       require.resolve('react-static-plugin-source-filesystem'),
