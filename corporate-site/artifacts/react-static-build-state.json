@@ -14,21 +14,6 @@
   "productionSourceMaps": false,
   "silent": false,
   "entry": "index.js",
-  "paths": {
-    "ROOT": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site",
-    "SRC": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/src",
-    "DIST": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/dist",
-    "ASSETS": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/dist/dist",
-    "PLUGINS": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/plugins",
-    "TEMP": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/tmp",
-    "ARTIFACTS": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/artifacts",
-    "PUBLIC": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/public",
-    "NODE_MODULES": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/node_modules",
-    "EXCLUDE_MODULES": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/node_modules",
-    "PACKAGE": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/package.json",
-    "HTML_TEMPLATE": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/dist/index.html",
-    "STATIC_DATA": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/dist/dist/staticData"
-  },
   "siteRoot": "http://zen-heisenberg-1912da.netlify.app",
   "plugins": [
     [
@@ -41,6 +26,21 @@
     "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/node_modules/react-static-plugin-sitemap/dist/node.api.js",
     "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site"
   ],
+  "paths": {
+    "ROOT": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site",
+    "SRC": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/src",
+    "DIST": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/dist",
+    "ASSETS": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/dist",
+    "PLUGINS": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/plugins",
+    "TEMP": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/tmp",
+    "ARTIFACTS": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/artifacts",
+    "PUBLIC": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/public",
+    "NODE_MODULES": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/node_modules",
+    "EXCLUDE_MODULES": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/node_modules",
+    "PACKAGE": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/package.json",
+    "HTML_TEMPLATE": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/dist/index.html",
+    "STATIC_DATA": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/dist/staticData"
+  },
   "basePath": "",
   "publicPath": "http://zen-heisenberg-1912da.netlify.app/",
   "assetsPath": "",
