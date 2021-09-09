@@ -14,7 +14,7 @@
   "productionSourceMaps": false,
   "silent": false,
   "entry": "index.js",
-  "siteRoot": "http://zen-heisenberg-1912da.netlify.app",
+  "siteRoot": "https://zen-heisenberg-1912da.netlify.app",
   "plugins": [
     [
       "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/node_modules/react-static-plugin-source-filesystem/node.api.js",
@@ -42,7 +42,7 @@
     "STATIC_DATA": "/Users/natsuki/workspace/00_RelyonTrip/test/CorporateSite/corporate-site/dist/staticData"
   },
   "basePath": "",
-  "publicPath": "http://zen-heisenberg-1912da.netlify.app/",
+  "publicPath": "https://zen-heisenberg-1912da.netlify.app/",
   "assetsPath": "",
   "extractCssChunks": false,
   "inlineCss": false,
